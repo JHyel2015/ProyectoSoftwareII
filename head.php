@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="images/oa.png">
-<title>Sistema OA</title>
+<title>Sistema de Soluciones Compratidas</title>
 <!-- Bootstrap core CSS-->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom fonts for this template-->
