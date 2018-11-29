@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="newPackage"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="6"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="4"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Inicio"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="singlepage"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Home"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Marco teórico."></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt;&lt;strong class=&quot;selflink&quot;&gt;&lt;img src=&quot;https://okhosting.com/resources/uploads/2017/04/tipos-de-licencia-para-software-libre.jpg&quot; alt=&quot;Resultado de imagen para software libre&quot; /&gt;&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;strong class=&quot;selflink&quot;&gt;Software libre&lt;/strong&gt;&lt;/b&gt;. (En inglés &lt;i&gt;free &lt;a href=&quot;https://www.ecured.cu/Software&quot; title=&quot;Software&quot;&gt;software&lt;/a&gt;&lt;/i&gt;, aunque en realidad esta denominación también puede significar gratis, y no necesariamente libre, por lo que se utiliza el hispanismo libre software también en inglés) es la denominación del Software que respeta la Libertad de los usuarios sobre su producto adquirido y, por tanto, una vez obtenido puede ser usado, copiado, estudiado, cambiado y redistribuido libremente.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Según la &lt;i&gt;&lt;a href=&quot;https://www.ecured.cu/Fundaci%C3%B3n_de_Software_Libre&quot; title=&quot;Fundación de Software Libre&quot;&gt;Free Software Foundation&lt;/a&gt;&lt;/i&gt;, el software libre se refiere a la Libertad de los usuarios para ejecutar, copiar, distribuir, estudiar, cambiar y mejorar el Software; de modo más preciso, se refiere a cuatro libertades de los usuarios del software: la libertad de usar el programa, con cualquier propósito; de estudiar el funcionamiento del programa, y adaptarlo a las necesidades; de distribuir copias, con lo cual se puede ayudar a otros y de mejorar el programa y hacer públicas las mejoras, de modo que toda la comunidad se beneficie (para la segunda y última libertad mencionadas, el acceso al Código fuente es un requisito previo).&lt;/p&gt;
+&lt;p&gt;El software libre suele estar disponible gratuitamente, o al precio de costo de la distribución a través de otros medios; sin embargo no es obligatorio que sea así, por lo tanto no hay que asociar software libre a &quot;software gratuito&quot; (denominado usualmente Freeware), ya que, conservando su carácter de libre, puede ser distribuido comercialmente (&quot;software comercial&quot;). Análogamente, el &quot;software gratis&quot; o &quot;gratuito&quot; incluye en ocasiones el Código fuente; no obstante, este tipo de software &lt;i&gt;no es libre&lt;/i&gt; en el mismo sentido que el software libre, a menos que se garanticen los derechos de modificación y redistribución de dichas versiones modificadas del programa.&lt;/p&gt;
+&lt;p&gt;Tampoco debe confundirse software libre con &quot;software de Dominio público&quot;. Éste último es aquel software que no requiere de licencia, pues sus derechos de explotación son para toda la humanidad, porque pertenece a todos por igual. Cualquiera puede hacer uso de él, siempre con fines legales y consignando su autoría original. Este software sería aquel cuyo autor lo dona a la humanidad o cuyos Derechos de autor han expirado, tras un plazo contado desde la muerte de este, habitualmente 70 años. Si un Autor condiciona su uso bajo una licencia, por muy débil que sea, ya no es del dominio público.&lt;/p&gt;
+&lt;div id=&quot;toc&quot; class=&quot;toc&quot;&gt;
+&lt;div id=&quot;toctitle&quot;&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Historia&quot;&gt;Historia&lt;/span&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Entre los años 60 y 70 del &lt;a href=&quot;https://www.ecured.cu/Siglo_XX&quot; title=&quot;Siglo XX&quot;&gt;siglo XX&lt;/a&gt;, el software no era considerado un producto sino un añadido que los vendedores de las grandes Computadoras de la época (las &lt;i&gt;Mainframes&lt;/i&gt;) aportaban a sus clientes para que éstos pudieran usarlos. En dicha cultura, era común que los Programadores y desarrolladores de software compartieran libremente sus programas unos con otros. Este comportamiento era particularmente habitual en algunos de los mayores grupos de usuarios de la época, como &lt;a href=&quot;https://www.ecured.cu/DECUS&quot; title=&quot;DECUS&quot;&gt;DECUS&lt;/a&gt; (grupo de usuarios de computadoras DEC). A finales de los 70, las compañías iniciaron el hábito de imponer restricciones a los usuarios, con el uso de acuerdos de licencia.&lt;/p&gt;
+&lt;p&gt;Allá por el &lt;a href=&quot;https://www.ecured.cu/1971&quot; title=&quot;1971&quot;&gt;1971&lt;/a&gt;, cuando la Informática todavía no había sufrido su gran boom, las personas que hacían uso de ella, en ámbitos universitarios y empresariales, creaban y &lt;i&gt;compartían el Software&lt;/i&gt; sin ningún tipo de restricciones.&lt;/p&gt;
+&lt;p&gt;Con la llegada de los años 80 la situación empezó a cambiar. Las Computadoras más modernas comenzaban a utilizar Sistemas operativos privativos, forzando a los usuarios a aceptar condiciones restrictivas que impedían realizar modificaciones a dicho Software.&lt;/p&gt;
+&lt;p&gt;En caso de que algún usuario o programador encontrase algún error en la aplicación, lo único que podía hacer era darlo a conocer a la empresa desarrolladora para que esta lo solucionara. Aunque el programador estuviese capacitado para solucionar el problema y lo desease hacer sin pedir nada a cambio, el contrato le impedía que mejorase el Software.&lt;/p&gt;
+&lt;p&gt;El mismo &lt;a href=&quot;https://www.ecured.cu/Richard_Stallman&quot; title=&quot;Richard Stallman&quot;&gt;Richard Stallman&lt;/a&gt; cuenta que por aquellos años, en el laboratorio donde trabajaba, habían recibido una Impresora donada por una empresa externa. El dispositivo, que era utilizado en red por todos los trabajadores, parecía no funcionar a la perfección, dado que cada cierto tiempo el papel se atascaba. Como agravante, no se generaba ningún aviso que se enviase por red e informase a los usuarios de la situación.&lt;/p&gt;
+&lt;p&gt;La pérdida de tiempo era constante, ya que en ocasiones, los trabajadores enviaban por red sus trabajos a imprimir y al ir a buscarlos se encontraban la impresora atascada y una cola enorme de trabajos pendientes. Richard Stallman decidió arreglar el problema, e implementar el envío de un aviso por red cuando la Impresora se bloqueara. Para ello necesitaba tener acceso al Código fuente de los controladores de la Impresora. Pidió a la empresa propietaria de la impresora lo que necesitaba, comentando, sin pedir nada a cambio, qué era lo que pretendía realizar. La empresa se negó a entregarle el Código fuente.&lt;/p&gt;
+&lt;p&gt;En ese preciso instante, Richard Stallman se vio en una encrucijada: debía elegir entre aceptar el nuevo Software privativo firmando acuerdos de no revelación y acabar desarrollando más Software privativo con licencias restrictivas, que a su vez deberían ser más adelante aceptadas por sus propios colegas.&lt;/p&gt;
+&lt;p&gt;Con este antecedente, en &lt;a href=&quot;https://www.ecured.cu/1984&quot; title=&quot;1984&quot;&gt;1984&lt;/a&gt;, Richard Stallman comenzó a trabajar en el proyecto GNU, y un año más tarde fundó la Free Software Foundation (FSF). Stallman introdujo la definición de &lt;i&gt;free software&lt;/i&gt; y el concepto de &quot;&lt;i&gt;&lt;a href=&quot;https://www.ecured.cu/Copyleft&quot; title=&quot;Copyleft&quot;&gt;Copyleft&lt;/a&gt;&lt;/i&gt;&quot;, que desarrolló para otorgar libertad a los usuarios y para restringir las posibilidades de apropiación del Software.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;La_Definici.C3.B3n_de_Software_Libre&quot;&gt;La Definición de Software Libre&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;El software libre es una cuestión de la libertad de los usuarios de ejecutar, copiar, distribuir, estudiar, cambiar y mejorar el software. Más precisamente, significa que los usuarios de programas tienen las cuatro libertades esenciales.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La libertad de ejecutar el programa, para cualquier propósito (libertad 0).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;La libertad de estudiar cómo trabaja el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;La libertad de redistribuir copias para que pueda ayudar al prójimo (libertad 2).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;La libertad de distribuir copias de sus versiones modificadas a terceros (la 3ª libertad). Si lo hace, puede dar a toda la comunidad una oportunidad de beneficiarse de sus cambios. El acceso al &lt;a href=&quot;https://www.ecured.cu/C%C3%B3digo_fuente&quot; title=&quot;Código fuente&quot;&gt;código fuente&lt;/a&gt; es una condición necesaria para ello.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Un programa es software libre si los usuarios tienen todas esas libertades. Entonces, debería ser libre de redistribuir copias, tanto con o sin modificaciones, ya sea gratis o cobrando una tarifa por distribución, a cualquiera en cualquier parte. El ser libre de hacer estas cosas significa, entre otras cosas, que no tiene que pedir o pagar el permiso.&lt;/p&gt;
+&lt;p&gt;También debería tener la libertad de hacer modificaciones y usarlas en privado, en su propio trabajo u obra, sin siquiera mencionar que existen. Si publica sus cambios, no debería estar obligado a notificarlo a alguien en particular, o de alguna forma en particular.&lt;/p&gt;
+&lt;p&gt;La libertad de ejecutar el programa significa la libertad para cualquier tipo de persona u organización de usarlo en cualquier tipo de sistema de computación, para cualquier tipo de trabajo y propósito, sin estar obligado a comunicarlo a su programador, o alguna otra entidad específica. En esta libertad, el propósito de los &lt;a href=&quot;https://www.ecured.cu/Usuarios&quot; title=&quot;Usuarios&quot; class=&quot;mw-redirect&quot;&gt;usuarios&lt;/a&gt; es el que importa, no el propósito de los &lt;a href=&quot;https://www.ecured.cu/index.php?title=Programadores&amp;amp;action=edit&amp;amp;redlink=1&quot; class=&quot;new&quot; title=&quot;Programadores (la página no existe)&quot;&gt;programadores&lt;/a&gt;. Como usuario es libre de ejecutar un programa para sus propósitos; y si lo distribuye a otra persona, también es libre para ejecutarlo para sus propósitos, pero usted no tiene derecho a imponerle sus propios propósitos.&lt;/p&gt;
+&lt;p&gt;La libertad de redistribuir copias debe incluir las formas binarias o ejecutables del programa, así como el &lt;a href=&quot;https://www.ecured.cu/C%C3%B3digo_fuente&quot; title=&quot;Código fuente&quot;&gt;código fuente&lt;/a&gt;; tanto para las versiones modificadas como para las no lo están.&lt;/p&gt;
+&lt;p&gt;(Distribuir programas en forma de ejecutables es necesario para que los sistemas operativos libres se puedan instalar fácilmente). Resulta aceptable si no existe un modo de producir un formato binario o ejecutable para un programa específico, dado que algunos lenguajes no incorporan esa característica, pero debe tener la libertad de redistribuir dichos formatos si encontrara o programara una forma de hacerlo.&lt;/p&gt;
+&lt;p&gt;La 1ª libertad incluye la libertad de usar su versión modificada en lugar de la original. Si el programa se entrega con un producto diseñado para ejecutar versiones modificadas de terceros, pero rechaza ejecutar las suyas, una práctica conocida como «tivoization» o «arranque seguro» (mediante listas negras); la 1ª libertad se convierte más en una ficción teórica que en una libertad práctica.&lt;/p&gt;
+&lt;p&gt;Esto no es suficiente. En otras palabras, estos binarios no son software libre, incluso si se compilaron desde un código fuente que es libre.&lt;/p&gt;
+&lt;p&gt;Una manera importante de modificar un programa es fusionando subrutinas y módulos libres disponibles. Si la licencia del programa dice que no puede fusionar un módulo existente con una debida licencia, así como si le requiere ser el titular de los derechos de autor de lo que agregue, entonces la licencia es demasiado restrictiva para calificarla como libre.&lt;/p&gt;
+&lt;p&gt;Para que estas libertades puedan ser reales, deben ser irrevocables siempre que no se cometa ninguna equivocación; si el programador del software tiene el poder de revocar la licencia, o de cambiar retroactivamente sus términos, sin que se haya equivocado para justificarlo, el software no es libre.&lt;/p&gt;
+&lt;p&gt;Sin embargo, ciertos tipos de reglas sobre la manera de distribuir software libre son aceptables, cuando no entran en conflicto con las libertades principales. Por ejemplo, el copyleft es la regla en base a la cual, cuando redistribuye el programa, no puede agregar restricciones para denegar a las demás personas las libertades principales. Esta regla no entra en conflicto con las libertades principales; más bien las protege.&lt;/p&gt;
+&lt;p&gt;Si una modificación constituye una mejora es un asunto subjetivo. Si sus modificaciones se limitan, en esencia, a los cambios que otra persona considera una mejora, eso no se trata de libertad.&lt;/p&gt;
+&lt;p&gt;En algunos casos las regulaciones de control de exportación y las sanciones comerciales pueden limitar sus libertades de distribuir copias de programas intencionalmente. Los desarrolladores de software no tienen el poder de eliminar o pasar por alto estas restricciones, pero lo que pueden y deben hacer es rechazar imponerlas como condiciones para el uso del programa. De este modo, las restricciones no afectarán a las actividades ni a las personas fuera de las jurisdicciones de dichos gobiernos. Por ende, las licencias de software libre no deben requerir la obediencia a ninguna regulación de exportaciones como condición de cualquiera de las libertades esenciales.&lt;/p&gt;
+&lt;p&gt;La mayoría de las licencias de software libre están basadas en el copyright, y existen límites en los tipos de requisitos que pueden ser impuestos a través del copyright. Si una licencia basada en el copyright respeta la libertad en las formas antes mencionadas, es poco probable tener otro tipo de problema que no hayamos anticipado (a pesar de que esto ocurre ocasionalmente). Sin embargo, algunas licencias de software libre están basadas en contratos, y los contratos pueden imponer un rango mucho más grande de restricciones posibles. Esto significa que existen muchas maneras posibles de que tal licencia pueda ser inaceptablemente restrictiva y que no sea libre.&lt;/p&gt;
+&lt;p&gt;Posiblemente no podamos enumerar todas las formas en las que eso puede pasar. Si una licencia basada en un contrato restringe al usuario de un modo que no puedan hacer las licencias basadas en el copyright, y que no está mencionado aquí como legítimo, tendremos que pensar sobre ello; y probablemente concluyamos que no es libre.&lt;/p&gt;
+&lt;p&gt;Finalmente, se debe tener en cuenta que los criterios, como los establecidos en esta definición de software libre, requieren pensar con cuidado su interpretación. Para decidir si una licencia de software específica es una licencia de software libre, la juzgamos en base a estos criterios para determinar si concuerda su espíritu, conjuntamente con la terminología precisa. Si una licencia incluye restricciones demasiado grandes, la rechazamos, incluso si no anticipamos la cuestión en este criterio. Algunas veces, los requisitos de una licencia muestran una cuestión que hace necesaria una reflexión más profunda, incluyendo la discusión con un abogado, antes que podamos decidir si el requisito es aceptable. Cuando llegamos a una conclusión sobre una nueva cuestión, solemos actualizar estos criterios para que resulte más fácil ver por qué ciertas licencias se califican o no.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Libertades_del_software_libre&quot;&gt;Libertades del software libre&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;De acuerdo con tal definición, el software es &quot;libre&quot; si garantiza las siguientes libertades&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Usar el programa, con cualquier propósito.&lt;/li&gt;
+&lt;li&gt;Estudiar cómo funciona el programa y modificarlo, adaptándolo a tus necesidades.&lt;/li&gt;
+&lt;li&gt;Distribuir copias del programa, con lo cual puedes ayudar a tu prójimo.&lt;/li&gt;
+&lt;li&gt;Mejorar el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La primera y la tercera libertad requieren acceso al Código fuente porque estudiar y modificar software sin su código fuente es muy poco viable.&lt;/p&gt;
+&lt;p&gt;Ciertos teóricos usan este cuarto punto (libertad 3) para justificar parcialmente las limitaciones impuestas por la licencia GNU &lt;a href=&quot;https://www.ecured.cu/GPL&quot; title=&quot;GPL&quot;&gt;GPL&lt;/a&gt; frente a otras licencias de software libre (ver Licencias GPL). Sin embargo el sentido original es más libre, abierto y menos restrictivo que el que le otorga la propia situación de incompatibilidad, que podría ser resuelta en la próxima versión 3.0 de la licencia GNU GPL, causa en estos momentos graves perjuicios a la comunidad de Programadores de software libre, que muchas veces no pueden reutilizar o mezclar códigos de dos licencias distintas, pese a que las libertades teóricamente lo deberían permitir.&lt;/p&gt;
+&lt;p&gt;El término Software no libre se emplea para referirse al software distribuido bajo una licencia de software más restrictiva que no garantiza estas cuatro libertades. Las leyes de la &lt;a href=&quot;https://www.ecured.cu/Propiedad_intelectual&quot; title=&quot;Propiedad intelectual&quot;&gt;Propiedad intelectual&lt;/a&gt; reservan la mayoría de los derechos de modificación, duplicación y redistribución para el dueño del &lt;i&gt;&lt;a href=&quot;https://www.ecured.cu/Copyright&quot; title=&quot;Copyright&quot;&gt;Copyright&lt;/a&gt;&lt;/i&gt;; el software dispuesto bajo una licencia de software libre rescinde específicamente la mayoría de estos derechos reservados.&lt;/p&gt;
+&lt;p&gt;La definición de software libre no contempla el asunto del precio; un eslogan frecuentemente usado es &lt;i&gt;&quot;libre como en libertad, no como en cerveza gratis&quot;&lt;/i&gt; o en inglés &lt;i&gt;&quot;Free as in freedom, not as in free beer&quot;&lt;/i&gt; (aludiendo a la ambigüedad del término inglés &quot;&lt;i&gt;free&lt;/i&gt;&quot;), y es habitual ver a la venta CD de software libre como distribuciones Linux. Sin embargo, en esta situación, el comprador del CD tiene el derecho de copiarlo y redistribuirlo. El software gratis puede incluir restricciones que no se adaptan a la definición de software libre —por ejemplo, puede no incluir el código fuente, puede prohibir explícitamente a los distribuidores recibir una compensación a cambio, etc—.&lt;/p&gt;
+&lt;p&gt;Para evitar la confusión, algunas personas utilizan los términos &quot;libre&quot; (&lt;i&gt;software libre&lt;/i&gt;) y &quot;gratis&quot; (&lt;i&gt;software gratis&lt;/i&gt;) para evitar la ambigüedad de la palabra inglesa &quot;free&quot;. Sin embargo, estos términos alternativos son usados únicamente dentro del Movimiento del software libre, aunque están extendiéndose lentamente hacia el resto del mundo. Otros defienden el uso del término &lt;i&gt;open source software&lt;/i&gt; (software de código abierto). La principal diferencia entre los términos &quot;open source&quot; y &quot;free software&quot; es que éste último tiene en cuenta los aspectos éticos y filosóficos de la libertad, mientras que el &quot;open source&quot; se basa únicamente en los aspectos técnicos.&lt;/p&gt;
+&lt;p&gt;En un intento por unir los mencionados términos que se refieren a conceptos semejantes, se está extendiendo el uso de la palabra &quot;FLOSS&quot; con el significado de &lt;i&gt;free/libre and open source software&lt;/i&gt; e, indirectamente, también a la comunidad que lo produce y apoya.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Tipos_de_licencias&quot;&gt;Tipos de licencias&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Una licencia es aquella autorización formal con carácter contractual que un autor de un software da a un interesado para ejercer &quot;actos de explotación legales&quot;. Pueden existir tantas licencias como acuerdos concretos se den entre el autor y el licenciatario. Desde el punto de vista del software libre, existen distintas variantes del concepto o grupos de licencias:&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Licencias_GPL&quot;&gt;Licencias GPL&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Una de las más utilizadas es la &lt;i&gt;Licencia Pública General de GNU&lt;/i&gt; (GNU GPL). El autor conserva los derechos de autor (copyright), y permite la redistribución y modificación bajo términos diseñados para asegurarse de que todas las versiones modificadas del software permanecen bajo los términos más restrictivos de la propia GNU GPL. Esto hace que sea imposible crear un producto con partes no licenciadas GPL: el conjunto tiene que ser GPL.&lt;/p&gt;
+&lt;p&gt;Es decir, la licencia GNU GPL posibilita la modificación y redistribución del software, pero únicamente bajo esa misma licencia. Y añade que si se reutiliza en un mismo programa código &quot;A&quot; licenciado bajo licencia GNU GPL y código &quot;B&quot; licenciado bajo otro tipo de licencia libre, el código final &quot;C&quot;, independientemente de la cantidad y calidad de cada uno de los códigos &quot;A&quot; y &quot;B&quot;, debe estar bajo la licencia GNU GPL.&lt;/p&gt;
+&lt;p&gt;En la práctica esto hace que las licencias de software libre se dividan en dos grandes grupos, aquellas que pueden ser mezcladas con código licenciado bajo GNU GPL (y que inevitablemente desaparecerán en el proceso, al ser el código resultante licenciado bajo GNU GPL) y las que no lo permiten al incluir mayores u otros requisitos que no contemplan ni admiten la GNU GPL y que por lo tanto no pueden ser enlazadas ni mezcladas con código gobernado por la licencia GNU GPL.&lt;/p&gt;
+&lt;p&gt;En el sitio web oficial de GNU hay una lista de licencias que cumplen las condiciones impuestas por la GNU GPL y otras que no.&lt;/p&gt;
+&lt;p&gt;Aproximadamente el 60% del software licenciado como software libre emplea una licencia GPL.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Licencias_estilo_BSD&quot;&gt;Licencias estilo BSD&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Llamadas así porque se utilizan en gran cantidad de software distribuido junto a los sistemas operativos BSD. El autor, bajo tales licencias, mantiene la protección de copyright únicamente para la renuncia de garantía y para requerir la adecuada atribución de la autoría en trabajos derivados, pero permite la libre redistribución y modificación, incluso si dichos trabajos tienen propietario. Son muy permisivas, tanto que son fácilmente absorbidas al ser mezcladas con la licencia GNU GPL con quienes son compatibles.&lt;/p&gt;
+&lt;p&gt;Puede argumentarse que esta licencia asegura “verdadero” software libre, en el sentido que el usuario tiene libertad ilimitada con respecto al software, y que puede decidir incluso redistribuirlo como no libre. Otras opiniones están orientadas a destacar que este tipo de licencia no contribuye al desarrollo de más software libre (normalmente utilizando la siguiente analogía: &quot;una licencia BSD es más libre que una GPL si y sólo si se opina también que un país que permita la esclavitud es más libre que otro que no la permite&quot;).&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Licencias_estilo_MPL_y_derivadas&quot;&gt;Licencias estilo MPL y derivadas&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Esta licencia es de Software Libre y tiene un gran valor porque fue el instrumento que empleó Netscape Communications Corp. para liberar su Netscape Communicator 4.0 y empezar ese proyecto tan importante para el mundo del Software Libre: &lt;a href=&quot;https://www.ecured.cu/Mozilla&quot; title=&quot;Mozilla&quot; class=&quot;mw-redirect&quot;&gt;Mozilla&lt;/a&gt;. Se utilizan en gran cantidad de productos de software libre de uso cotidiano en todo tipo de sistemas operativos. La MPL es Software Libre y promueve eficazmente la colaboración evitando el efecto &quot;viral&quot; de la GPL (si usas código licenciado GPL, tu desarrollo final tiene que estar licenciado GPL). Desde un punto de vista del desarrollador la GPL presenta un inconveniente en este punto, y lamentablemente mucha gente se cierra en banda ante el uso de dicho código. No obstante la MPL no es tan excesivamente permisiva como las licencias tipo BSD. Estas licencias son denominadas de copyleft débil. La NPL (luego la MPL) fue la primera licencia nueva después de muchos años, que se encargaba de algunos puntos que no fueron tenidos en cuenta por las licencias BSD y GNU. En el espectro de las licencias de software libre se la puede considerar adyacente a la licencia estilo BSD, pero perfeccionada.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Copyleft&quot;&gt;Copyleft&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Hay que hacer constar que el titular de los Derechos de autor (copyright) de un software bajo licencia copyleft puede también realizar una versión modificada bajo su copyright original, y venderla bajo cualquier licencia que desee, además de distribuir la versión original como software libre. Esta técnica ha sido usada como un modelo de negocio por una serie de empresas que realizan software libre (por ejemplo MySQL); esta práctica &lt;i&gt;no&lt;/i&gt; restringe ninguno de los derechos otorgados a los usuarios de la versión Copyleft. También podría retirar todas las licencias de software libre anteriormente otorgadas, pero esto obligaría a una indemnización a los titulares de las licencias en uso. En España, toda obra derivada está tan protegida como una original, siempre que la obra derivada parta de una autorización contractual con el autor. En el caso genérico de que el autor retire las licencias &quot;copyleft&quot;, no afectaría de ningún modo a los productos derivados anteriores a esa retirada, ya que no tiene efecto retroactivo. En términos legales, el autor no tiene derecho a retirar el permiso de una licencia en vigencia. Si así sucediera, el conflicto entre las partes se resolvería en un pleito convencional.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Comparaci.C3.B3n_con_el_software_de_c.C3.B3digo_abierto&quot;&gt;Comparación con el software de código abierto&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Aunque en la práctica el software de &lt;a href=&quot;https://www.ecured.cu/C%C3%B3digo_abierto&quot; title=&quot;Código abierto&quot;&gt;Código abierto&lt;/a&gt; y el software libre comparten muchas de sus licencias, la FSF opina que el movimiento de Código abierto es filosóficamente diferente del movimiento del software libre. Apareció en 1998 con un grupo de personas, entre los que cabe destacar a Eric S. Raymond y Bruce Perens, que formaron la Open Source Initiative (OSI). Ellos buscaban darle mayor relevancia a los beneficios prácticos del compartir el código fuente, e interesar a las principales casas de software y otras empresas de la industria de la alta tecnología en el concepto. Mientras que la FSF y Richard Stallman, prefieren plantear el asunto en términos éticos empleando el término Software Libre.&lt;/p&gt;
+&lt;p&gt;Estos defensores ven que el término &quot;código abierto&quot;, en inglés &lt;i&gt;open source&lt;/i&gt;, evita la ambigüedad del término en ese idioma que es &lt;i&gt;free&lt;/i&gt; en &lt;i&gt;free software&lt;/i&gt;. El término &quot;código abierto&quot; fue acuñado por Christine Peterson del &lt;i&gt;think tank&lt;/i&gt; Foresight Institute, y se registró para actuar como Marca registrada el término en inglés para los productos de software libre.&lt;/p&gt;
+&lt;p&gt;Mucha gente reconoce el beneficio cualitativo del proceso de desarrollo de software cuando los desarrolladores pueden usar, modificar y redistribuir el código fuente de un programa. (&lt;i&gt;Véase también&lt;/i&gt; La Catedral y el Bazar). El movimiento del software libre hace especial énfasis en los aspectos morales o éticos del software, viendo la excelencia técnica como un producto secundario deseable de su estándar ético. El movimiento de código abierto ve la excelencia técnica como el objetivo prioritario, siendo la compartición del código fuente un medio para dicho fin. Por dicho motivo, la FSF se distancia tanto del movimiento de código abierto como del término &quot;Código Abierto&quot; (en inglés &lt;i&gt;Open Source&lt;/i&gt;).&lt;/p&gt;
+&lt;p&gt;Puesto que la OSI sólo aprueba las licencias que se ajustan a la OSD (&lt;i&gt;Open Source Definition&lt;/i&gt;, Definición de Código Abierto), la mayoría de la gente lo interpreta como un esquema de distribución, e intercambia libremente &quot;código abierto&quot; con &quot;software libre&quot;. Aun cuando existen importantes diferencias filosóficas entre ambos términos, especialmente en términos de las motivaciones para el desarrollo y el uso de tal software, raramente suelen tener impacto en el proceso de colaboración.&lt;/p&gt;
+&lt;p&gt;Aunque el término &quot;código abierto&quot; elimina la ambigüedad de Libertad frente a Precio (en el caso del Inglés), introduce una nueva: entre los programas que se ajustan a la &lt;i&gt;definición de Código Abierto&lt;/i&gt;, que dan a los usuarios la libertad de mejorarlos, y los programas que simplemente tiene el código fuente disponible, posiblemente con fuertes restricciones sobre el uso de dicho código fuente. Mucha gente cree que cualquier software que tenga el código fuente disponible es de &lt;i&gt;código abierto&lt;/i&gt;, puesto que lo pueden manipular (un ejemplo de este tipo de software sería el popular paquete de software gratuito Graphviz, inicialmente no libre pero que incluía el código fuente, aunque luego AT&amp;amp;T le cambió la licencia). Sin embargo, mucho de este software no da a sus usuarios la libertad de distribuir sus modificaciones, restringe el uso comercial, o en general restringe los derechos de los usuarios.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Versiones_de_la_definici.C3.B3n&quot;&gt;Versiones de la definición&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;De vez en cuando se modifica la definición de software libre para clarificarla. A continuación, se presenta una lista de dichas modificaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión 1.90: aclarar que la 3ª libertad significa el derecho a distribuir copias de sus propias versiones modificadas o mejoradas. No el derecho de participar en el proyecto de otro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión 1.89: La 3ª libertad incluye el derecho a liberar versiones modificadas como software libre.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión 1.80: la primera libertad debe ser práctica, no sólo teórica. Por ejemplo, nada de tivoización.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión 1.77: Clarificación acerca que todos los cambios retroactivos a la licencia son inaceptables, aún si no representan reemplazos completos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Versión 1.74: Cuatro clarificaciones de puntos no del todo explícitos, o definidas en algunos lugares pero no reflejadas en todos:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Modelo_de_negocio&quot;&gt;Modelo de negocio&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;El Negocio detrás del software libre se caracteriza por la oferta de servicios adicionales al software como: la personalización y/o instalación del mismo, Soporte técnico, donaciones, Patrocinios; en contraposición al modelo de negocio basado en licencias predominante en el [[software de código cerrado&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Significancia_pol.C3.ADtica&quot;&gt;Significancia política&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Una vez que un producto de software libre ha empezado a circular, rápidamente está disponible a un costo muy bajo o sin costo alguno. Al mismo tiempo, su utilidad no decrece. Esto significa que el software libre se puede caracterizar como un bien libre en lugar de un Bien económico, si bien eso no significa que no pueda ser comercializable.&lt;/p&gt;
+&lt;p&gt;Puesto que el software libre permite el libre uso, modificación y redistribución, a menudo encuentra un hogar entre usuarios para los cuales el coste del software no libre es a veces prohibitivo, o como alternativa a la Piratería. También es sencillo modificarlo localmente, lo que permite que sean posibles los esfuerzos de traducción a idiomas que no son necesariamente rentables comercialmente.&lt;/p&gt;
+&lt;p&gt;La mayoría del software libre se produce por equipos internacionales que cooperan a través de la libre asociación. Los equipos están típicamente compuestos por individuos con una amplia variedad de motivaciones, y pueden provenir tanto del Sector privado, del Sector voluntario o del Sector público. Existen muchas posturas acerca de la relación entre el software libre y el actual sistema político-económico:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Algunos consideran el software libre como un competidor contra el Centralismo en empresas y gobiernos, una forma de Orden espontáneo o de Anarquismo práctico.&lt;/li&gt;
+&lt;li&gt;Algunos consideran el software libre como una forma de Trabajo colaborativo en un modelo de mercado, tal como se había planteado el Cooperativismo.&lt;/li&gt;
+&lt;li&gt;Algunos comparan el software libre a una Economía del regalo, donde el valor de una persona está basado en lo que ésta da a los demás, sin que incurra valor monetario formal de por medio.&lt;/li&gt;
+&lt;li&gt;Grupos como Oekonux e Hipatia consideran que todo debería producirse de esta forma y que este modelo de producción no se limita a reemplazar el modelo no libre de desarrollo del software. La Cooperación basada en la libre asociación puede usarse y se usa para otros propósitos (tales como escribir enciclopedias, por ejemplo).&lt;/li&gt;
+&lt;li&gt;Hay proyectos de desarrollo con impulso gubernamental que utilizan software libre, así como en proyectos de Voluntariado en países del tercer mundo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Las implicaciones políticas y económicas del software libre, o su afinidad con el Antiautoritarismo, es discutida. Mientras para unos estas implicaciones son notorias y representan un factor importante a tomarse en cuenta, para otros si bien podría existir una leve relación, no tiene suficiente relevancia.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Seguridad_relativa&quot;&gt;Seguridad relativa&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Existe una cierta controversia sobre la seguridad del software libre frente al software no libre (siendo uno de los mayores asuntos la Seguridad por oscuridad). Un método usado de forma habitual para determinar la seguridad relativa de los productos es determinar cuántos fallos de seguridad no parcheados existen en cada uno de los productos involucrados. Por lo general los usuarios de este método recomiendan que cuando un producto no proporcione un método de parchear los fallos de seguridad, no se use dicho producto, al menos hasta que no esté disponible un arreglo.&lt;/p&gt;
+&lt;p&gt;A fecha de diciembre de &lt;a href=&quot;https://www.ecured.cu/2004&quot; title=&quot;2004&quot;&gt;2004&lt;/a&gt; el sitio de seguridad Secunia cuenta cero fallos de seguridad no parcheados (no arreglados aún) para los productos software libre más usados para navegación de internet, productividad de oficina y e-mail -&lt;a href=&quot;https://www.ecured.cu/Mozilla_Firefox&quot; title=&quot;Mozilla Firefox&quot;&gt;Mozilla Firefox&lt;/a&gt;, OpenOffice.org y &lt;a href=&quot;https://www.ecured.cu/Mozilla_Thunderbird&quot; title=&quot;Mozilla Thunderbird&quot;&gt;Mozilla Thunderbird&lt;/a&gt;-, en comparación con los varios fallos de seguridad aún no corregidos para cada uno de los tres principales productos no libres equivalentes (hechos por Microsoft) - Internet Explorer, Microsoft Office y Outlook Express.&lt;/p&gt;
+&lt;p&gt;Otro ejemplo de SL es GNU/Linux, del cual se cree que es más seguro que Windows debido a la diferencia de usuarios, sin embargo otros argumentan que la seguridad de este sistema reside en su diseño (véase el llamado principio de Kerckhoff).&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Software_libre_en_la_administraci.C3.B3n_p.C3.BAblica&quot;&gt;Software libre en la administración pública&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Existe una serie de países en los cuales, sus administraciones públicas, han mostrado apoyo al software libre, sea migrando total o parcialmente sus servidores y sistemas de escritorio, sea subvencionándolo. Como ejemplos de ello se tiene a &lt;a href=&quot;https://www.ecured.cu/Alemania&quot; title=&quot;Alemania&quot;&gt;Alemania&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/Argentina&quot; title=&quot;Argentina&quot;&gt;Argentina&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/Brasil&quot; title=&quot;Brasil&quot;&gt;Brasil&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/Chile&quot; title=&quot;Chile&quot;&gt;Chile&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/China&quot; title=&quot;China&quot; class=&quot;mw-redirect&quot;&gt;China&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/Espa%C3%B1a&quot; title=&quot;España&quot;&gt;España&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/Francia&quot; title=&quot;Francia&quot;&gt;Francia&lt;/a&gt;, &lt;a href=&quot;https://www.ecured.cu/M%C3%A9xico&quot; title=&quot;México&quot;&gt;México&lt;/a&gt; y &lt;a href=&quot;https://www.ecured.cu/Venezuela&quot; title=&quot;Venezuela&quot;&gt;Venezuela&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Además de lo anterior, la Administración Publica tiene una cierta función de escaparate y/o guía de la industria que la hace tener un gran impacto, que debería dirigirse a la creación de un tejido tecnológico generador de riqueza nacional. Ésta puede crearse fomentando empresas, cuyo negocio sea en parte el desarrollo de nuevo software libre para la administración, el mantenimiento y la adaptación del existente asimismo auditar el software existente.&lt;/p&gt;
+&lt;p&gt;Actualmente (&lt;a href=&quot;https://www.ecured.cu/2009&quot; title=&quot;2009&quot;&gt;2009&lt;/a&gt;) el Centro Nacional de Referencia de Aplicación de las TIC basadas en Fuentes Abiertas (CENATIC), ha elaborado un informe junto a la Universidad Rey Juan Carlos (Grupo GsyC/LibreSoft) y Telefónica I+D, con el fin de analizar el estado en que se encuentra el proceso de implantación del software de fuentes abiertas en la Administración Pública española.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Motivaciones_del_software_libre&quot;&gt;Motivaciones del software libre&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;La motivación &lt;i&gt;ética&lt;/i&gt;, abanderada por la Free Software Foundation, heredera de la Cultura hacker, y partidaria del apelativo &lt;i&gt;libre&lt;/i&gt;, que argumenta que el software es conocimiento y debe poderse difundir sin trabas. Su ocultación es una actitud antisocial y la posibilidad de modificar programas es una forma de Libertad de expresión.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;La motivación &lt;i&gt;pragmática&lt;/i&gt;, abanderada por la Open Source Initiative y partidaria del apelativo &lt;i&gt;abierto&lt;/i&gt;, que argumenta ventajas técnicas y económicas, con respecto a evitar una Tragedia de los anticomunes mejorando los incentivos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aparte de estas dos grandes motivaciones, la gente que trabaja en software libre suele hacerlo por muchas otras razones, que van desde la diversión a la mera retribución económica, que es posible debido a modelos de negocio sustentables.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Algunos_motivos_para_el_uso_del_software_libre&quot;&gt;Algunos motivos para el uso del software libre&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Raz.C3.B3n_macro-econ.C3.B3mica&quot;&gt;Razón macro-económica&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ecured.cu/Brasil&quot; title=&quot;Brasil&quot;&gt;Brasil&lt;/a&gt;, por ejemplo, transfiere al exterior, anualmente, más de un millardo de dólares en pagos de licencias de software, en un mercado interno que mueve anualmente tres millardos de dólares. Esto significa que un tercio de lo que mueve la industria del software en el Brasil es transferido, en forma de pagos de royalties, a las mega-empresas monopolistas de software del extranjero.&lt;/p&gt;
+&lt;p&gt;Esa realidad, además de significar un aumento del déficit en la balanza internacional de servicios, inviabiliza el desarrollo de las empresas de &lt;a href=&quot;https://www.ecured.cu/Inform%C3%A1tica&quot; title=&quot;Informática&quot;&gt;informática&lt;/a&gt; en el Brasil.&lt;/p&gt;
+&lt;p&gt;Las cuestiones de la seguridad y de la confidencialidad también son factores importantes para la escogencia del software libre. Una plataforma tecnológica debe garantizar la seguridad en los sistemas de información y la confidencialidad de los datos de los usuarios. Para que esto ocurra es imprescindible el acceso al código fuente de los programas. Sin el código fuente es imposible verificar si los programas hacen solamente aquello que el fabricante dice que hacen, o si en verdad hay una “puerta trasera” violando la confidencialidad de la información. Igualmente, sin el &lt;a href=&quot;https://www.ecured.cu/C%C3%B3digo_fuente&quot; title=&quot;Código fuente&quot;&gt;código fuente&lt;/a&gt; se hace imposible corregir las fallas en el programa sin recurrir al fabricante propietario.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Autonom.C3.ADa_e_independencia_tecnol.C3.B3gica&quot;&gt;Autonomía e independencia tecnológica&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;El principal capital de la &lt;a href=&quot;https://www.ecured.cu/Revoluci%C3%B3n&quot; title=&quot;Revolución&quot;&gt;Revolución&lt;/a&gt; digital y de la Sociedad de la Información es justamente el conocimiento digital. Esto implica que los excluidos digitales son aquellos que no tienen acceso al conocimiento digital. ¿Cómo pensar en la inclusión de cualquier país en la sociedad del conocimiento sin que las universidades, escuelas, empresas, centros de búsqueda, gobiernos y sociedad tengan conocimiento pleno de la tecnología que se está difundiendo? Por lo tanto, cualquier programa de inclusión digital o de inserción en la Sociedad de la Información sólo es consistente si es realizado con software libre. Programas de inclusión digital, realizados con software secreto y privativo son, en verdad, programas de “exclusión” del conocimiento digital.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Independencia_de_los_proveedores&quot;&gt;Independencia de los proveedores&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Se tiene el derecho a conocer lo que se está utilizando o comprando. Las dependencias tecnológicas causadas por las plataformas propietarias inhiben la competitividad, imposibilitan el conocimiento sobre el contenido del producto adquirido y crean una exclusividad de mercado a la empresa que vendió al consumidor.&lt;/p&gt;
+&lt;p&gt;El software libre da más independencia en relación al proveedor de soluciones. El individuo que utiliza una solución de software libre tiene acceso al código fuente y a las cuatro libertades básicas del software libre. De esta manera, al tener el &lt;a href=&quot;https://www.ecured.cu/C%C3%B3digo_fuente&quot; title=&quot;Código fuente&quot;&gt;código fuente&lt;/a&gt;, no está supeditado al que desarrolló la solución original.&lt;/p&gt;
+&lt;p&gt;La utilización de software privativo es lo mismo, por ejemplo, que utilizar un medicamento sin tener el derecho a conocer la fórmula &lt;a href=&quot;https://www.ecured.cu/Qu%C3%ADmica&quot; title=&quot;Química&quot;&gt;química&lt;/a&gt;. O aún, comprar alimentos industrializados sin tener el derecho a conocer de qué están hechos.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Conocimiento_compartido&quot;&gt;Conocimiento compartido&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Para que los países menos desarrollados o en vías de desarrollo tengan la oportunidad de superar una etapa histórica de dependencia y subordinación en el escenario mundial, las actuales leyes y tratados internacionales de patentes, copyright y marcas, protegidas por la ideología de la propiedad intelectual, necesitan ser alteradas y flexibilizadas. Históricamente, el discurso de la ideología de la propiedad intelectual se estableció para favorecer la libertad de creación, para estimular a los inventores y para promover los beneficios para la sociedad. Hoy se ha convertido en un mercado exclusivo de los países desarrollados y sus monopolios. Alternativas como las licencias “copyleft”, &lt;a href=&quot;https://www.ecured.cu/GPL&quot; title=&quot;GPL&quot;&gt;GPL&lt;/a&gt; - General Public License y Creative Commons trabajan con la expectativa de la libertad y del conocimiento compartido, dando un sentido positivo y actual, sintonizado con las nuevas posibilidades creadas por la &lt;a href=&quot;https://www.ecured.cu/Revoluci%C3%B3n&quot; title=&quot;Revolución&quot;&gt;Revolución&lt;/a&gt; digital.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Ventajas_del_software_libre_en_el_sector_educativo&quot;&gt;Ventajas del software libre en el sector educativo&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Los estudiantes y profesionales no se aferran a un entorno de trabajo.&lt;/li&gt;
+&lt;li&gt;Los costos de adquisición de herramientas informáticas son mínimos.&lt;/li&gt;
+&lt;li&gt;Formación de profesionales que obtendrán mejores ingresos.&lt;/li&gt;
+&lt;li&gt;Las instituciones y/o personas no se tienen que atar a un determinado programa o casa desarrolladora.&lt;/li&gt;
+&lt;li&gt;Disfrutar de las libertades del software libre, sin ser tildados como “piratas”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Fuentes&quot;&gt;Fuentes&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noopener noreferrer&quot; target=&quot;_blank&quot; class=&quot;external text&quot; href=&quot;http://www.gnu.org/philosophy/free-sw.es.html&quot;&gt;Definición de Software libre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noopener noreferrer&quot; target=&quot;_blank&quot; class=&quot;external text&quot; href=&quot;http://cisn.metu.edu.tr/2002-6/free.php&quot;&gt;Software Libre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noopener noreferrer&quot; target=&quot;_blank&quot; class=&quot;external text&quot; href=&quot;http://www.gnu.org/philosophy/categories.es.html&quot;&gt;categorías de Software libre y no libre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow noopener noreferrer&quot; target=&quot;_blank&quot; class=&quot;external text&quot; href=&quot;http://diarioti.com/gate/n.php?id=16446&quot;&gt;Diario tecnologías de la Información&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Colaborador para ecured, Maria Sol vicet Illas&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="External Web Site"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The external website iDevice loads an external website 
+into an inline frame in your eXe content rather then opening it in a popup box. 
+This means learners are not having to juggle windows. 
+This iDevice should only be used if your content 
+will be viewed by learners online."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="_urlInstruc"></string>
+           <unicode value="Enter the URL you wish to display
+and select the size of the area to display it in."></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="height"></string>
+           <unicode value="800"></unicode>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="url"></string>
+           <unicode value="https://www.youtube.com/watch?v=P8YaHP_K8EA"></unicode>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="singlepage"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Marco%20te%C3%B3rico."></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Consejos."></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Cómo crear un Proyecto Libre&lt;/p&gt;
+&lt;p&gt;Estas son tan solo una serie de sugerencias, publicadas originalmente por Vicente J. Ruiz Jurado, en donde nos alcanza una serie de aportes relacionados a como crear un proyecto Libre desde un punto de vista académico y Técnico. &lt;/p&gt;
+&lt;p&gt;Este texto indica una serie de recomendaciones sobre como crear un proyecto libre&lt;/p&gt;
+&lt;p&gt;Ten en cuenta que quizás al crear un proyecto libre en un área en el que esto no es habitual (por ejemplo áreas de trabajo diferentes al &lt;a href=&quot;http://www.gnu.org/philosophy/free-sw.html&quot;&gt;&lt;strong&gt;software libre&lt;/strong&gt;&lt;/a&gt;), esta tarea puede que no sea trivial, por ejemplo por sus implicaciones legales.&lt;/p&gt;
+&lt;p&gt;Con este tipo de textos pretendemos evitar que la gente trabaje en proyectos en Internet con modelos cerrados como es la práctica habitual, es decir, publicando solo con copyright, sin compartir sus logros con el resto del mundo, con herramientas no libres (listas de yahoo, etc), con formatos de ficheros secretos y privativos (como los de Micro$oft), sin permitir colaboraciones, etc, etc.&lt;/p&gt;
+&lt;p&gt;Estas son tan solo una serie de sugerencias, eres muy libre de usarlas o usar los métodos de trabajo que creas más convenientes. Si tu proyecto o iniciativa ya existe, escoge los puntos que creas aplicables:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Piensa en un &lt;strong&gt;problema&lt;/strong&gt; que quiera solucionar, o una &lt;strong&gt;iniciativa&lt;/strong&gt; que quieres comenzar. Si se basa en una necesidad propia te motivará más para que encuentres una solución.&lt;/li&gt;
+&lt;li&gt;Haz una &lt;strong&gt;búsqueda exhaustiva de otros proyectos similares&lt;/strong&gt;, sobre todo, si son proyectos libres. Quizás puedes decidir colaborar activamente en otro proyecto existente, o en su defecto aprovechar el trabajo ya realizado. Mide tus fuerzas antes de comenzar algo que no puedas más tarde asumir.&lt;/li&gt;
+&lt;li&gt;Si definitivamente has decido comenzar un proyecto libre nuevo, &lt;strong&gt;elige una licencia libre&lt;/strong&gt;. Para ello piensa en las libertades que quieres dar al trabajo inmaterial que estás generando. En Creative Commons [&lt;a href=&quot;http://www.somoslibres.org/modules.php?name=News&amp;amp;file=article&amp;amp;sid=256#nb1&quot;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/a&gt;] tienen un interfaz muy sencillo, para que tú le apliques a tu obra de libre copia, otras libertades que tú consideras importantes: 1) dar crédito (ó no) al autor original, 2) permitir (ó no) usos comerciales a terceros de tu obra y 3) permitir (ó no) modificaciones a la obra original. Nosotros consideramos que &lt;a href=&quot;http://ourproject.org/softwaremap/trove_list.php?form_cat=5000&quot;&gt;&lt;strong&gt;algunas licencias&lt;/strong&gt;&lt;/a&gt;son especialmente adecuadas para proyectos libres ya que son &lt;a href=&quot;http://en.wikipedia.org/wiki/Copyleft&quot;&gt;&lt;strong&gt;copyleft&lt;/strong&gt;&lt;/a&gt; y por ello son las que habitualmente recomendamos. (Nota: Puedes elegir también varias licencias si tienes diferentes tipos de contenidos o incluso sobre un mismo tipo de contenido. Es este último caso el usuario final de los contenidos, escogería la licencia que prefiriese).&lt;/li&gt;
+&lt;li&gt;Elige un &lt;strong&gt;nombre&lt;/strong&gt; para tu proyecto libre. Si es largo busca un &lt;strong&gt;acrónimo&lt;/strong&gt; si te parece apropiado. Intenta que sea representativo y no exista un nombre similar en tu área de trabajo.&lt;/li&gt;
+&lt;li&gt;Elige un &lt;strong&gt;sitio web&lt;/strong&gt; para alojar tu proyecto libre. Te recomendamos (&lt;a href=&quot;http://ourproject.org/&quot;&gt;&lt;strong&gt;ourproject.org&lt;/strong&gt;&lt;/a&gt;, y para software libre &lt;a href=&quot;http://software-libre.org/&quot;&gt;&lt;strong&gt;software-libre.org&lt;/strong&gt;&lt;/a&gt; y &lt;a href=&quot;http://savannah.gnu.org/&quot;&gt;&lt;strong&gt;savannah.gnu.org&lt;/strong&gt;&lt;/a&gt;). Si tienes conocimientos informáticos también puedes montar tu propia infraestructura.&lt;/li&gt;
+&lt;li&gt;Usa todas las &lt;strong&gt;herramientas de Internet&lt;/strong&gt; posibles para dar difusión a tu trabajo y facilitar el trabajo en colaboración: &lt;a href=&quot;http://en.wikipedia.org/wiki/World_Wide_Web&quot;&gt;&lt;strong&gt;webs&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Mailinglist&quot;&gt;&lt;strong&gt;listas de correo&lt;/strong&gt;&lt;/a&gt;, documentos, &lt;a href=&quot;http://en.wikipedia.org/wiki/Wiki&quot;&gt;&lt;strong&gt;wikis&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;http://en.wikipedia.org/wiki/Instant_message&quot;&gt;&lt;strong&gt;mensajería instantánea&lt;/strong&gt;&lt;/a&gt;, y otras &lt;a href=&quot;http://en.wikipedia.org/wiki/Collaborative_software&quot;&gt;&lt;strong&gt;herramientas de trabajo en colaboración&lt;/strong&gt;&lt;/a&gt;. Los sitios de alojamiento anteriores te las facilitarán a cambio de que los contenidos de tu proyecto sean libres.&lt;/li&gt;
+&lt;li&gt;Procura todo lo posible que estas herramientas y la información generada por esta (por ejemplo documentos) se basen en &lt;strong&gt;software libre&lt;/strong&gt;, ya que así se basarán en estándares y no en modelos privativos y cerrados que imposibilite que la información de tu proyecto llegue a todo el mundo. Los sitios anteriores te las facilitarán. &lt;strong&gt;No uses formatos secretos de ficheros&lt;/strong&gt; como los de Micro$oft por esta misma razón. Tampoco uses herramientas de comunicación privadas (como el Messenger de Micro$oft). El software libre te proporcionará alternativas libres (como &lt;a href=&quot;http://openoffice.org/&quot;&gt;&lt;strong&gt;openoffice.org&lt;/strong&gt;&lt;/a&gt; y &lt;a href=&quot;http://www.jabber.org/&quot;&gt;&lt;strong&gt;www.jabber.org&lt;/strong&gt;&lt;/a&gt;) que están al alcance de todo el mundo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Libera&lt;/strong&gt; vuestro &lt;strong&gt;conocimiento&lt;/strong&gt;. Publica con las herramientas anteriores y con las licencias antes elegidas todo vuestro trabajo inmaterial.&lt;/li&gt;
+&lt;li&gt;Haced &lt;strong&gt;siempre visible vuestra licencia&lt;/strong&gt; en vuestras publicaciones adjuntándola adecuadamente a vuestro trabajo (a título de ejemplo ver como lo hemos hecho en el pie de este documento). Creative Commons explica detalladamente como realizar este paso según los diferentes contenidos (imagenes, audio, documentos en papel, electrónicos, etc) [&lt;a href=&quot;http://www.somoslibres.org/modules.php?name=News&amp;amp;file=article&amp;amp;sid=256#nb1&quot;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/a&gt;].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Da difusión&lt;/strong&gt; a tu proyecto.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Busca colaboradoræs&lt;/strong&gt; y personas que tengan similares inquietudes y/o problemáticas e intentad trabajar en conjunto. Deja muy claro (por ejemplo en una página web) como es posible colaborar o unirse a la iniciativa (igual simplemente suscribiéndose a una lista de correo). Es probable que encuentres a personas con similares inquietudes/problemáticas que quieran unirse al proyecto y muchas cabezas serán mejor que una.&lt;/li&gt;
+&lt;li&gt;Trata a las personas que se acerquen al proyecto como &lt;strong&gt;posibles colaboradoræs&lt;/strong&gt;, y siempre que puedas &lt;strong&gt;escucha&lt;/strong&gt; atentamente su opinión y observa su reacción e intereacción con el proyecto.&lt;/li&gt;
+&lt;li&gt;Si lo crees interesante, no te limites a tu ámbito local. Ten en cuenta que pueden surgir colaboradoræs o personas interesadas en tu proyecto libre en &lt;strong&gt;cualquier sitio de Internet&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Intenta ser todo lo &lt;strong&gt;multilingüe&lt;/strong&gt; que puedas en el web y en todas las publicaciones de tu proyecto a no ser que tu proyecto sea muy local. Si tu proyecto libre interesa en otras comunidades es probable que surja alguien que quiera colaborar traduciendo vuestras publicaciones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Escoge&lt;/strong&gt; tus colaboradoræs y sus &lt;strong&gt;aportaciones&lt;/strong&gt;, de acuerdo con los objetivos con los que comenzaste el proyecto libre.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lidera&lt;/strong&gt; el proyecto libre &lt;strong&gt;junto con l@s colaboradoræs&lt;/strong&gt; que tú decidas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organizaros el trabajo&lt;/strong&gt; según vuestras posibilidades. Siempre que sea posible, fijar plazos para lograr los objetivos propuestos. Cada persona debería hacer lo que quiera/pueda sin coacciones. En principio se trata de un &lt;strong&gt;trabajo voluntario no forzoso&lt;/strong&gt; y esto es algo que hay que respetar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define objetivos&lt;/strong&gt;, tareas, y el mecanismo de asignación de cada una de ellas (asignación o autoasignación) Es importante distribuir adecuadamente el trabajo, para que no se duplique trabajo innecesariamente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aprende a delegar&lt;/strong&gt;: es imprescindible confiar que las personas que se harán cargo de determinadas tareas lo harán con la misma destreza y sabiduría que uno mismo (o mejor). Saber delegar implica darle la libertad a las personas para que estas utilicen su inteligencia y capacidad libremente.&lt;/li&gt;
+&lt;li&gt;Da visibilidad a las aportaciones de tus colaboradoræs, alimenta su ego. Por ejemplo, crea una página web o un documento de &lt;strong&gt;créditos&lt;/strong&gt;donde aparezca el trabajo realizado por cada persona (siempre que ella desee aparecer).&lt;/li&gt;
+&lt;li&gt;Si alguien critica el trabajo realizado, o propone mejoras no del todo claras pero sin llegar a implicarse en el proyecto siempre se le puede invitar a que colabore y realice mejoras concretas. Comentarios tales como: &quot;habría que hacer tal cosa&quot;, ó &quot;yo lo haría así&quot; se pueden responder con un &quot;Perfecto, hazlo&quot;. Esto es trabajo colaborativo al fin y al cabo.&lt;/li&gt;
+&lt;li&gt;Si alguien no está de acuerdo con la línea que has u os habéis marcado en el proyecto libre, esta persona siempre puede tomar el trabajo realizado hasta ese momento (ya que la licencia lo permite) y &lt;strong&gt;comenzar otro proyecto libre&lt;/strong&gt; partiendo de ese trabajo pero con sus criterios.&lt;/li&gt;
+&lt;li&gt;En la medida de lo posible, intenta que los &lt;strong&gt;foros&lt;/strong&gt; que uséis (listas de correo, foros web, etc.) sean &lt;strong&gt;públicos&lt;/strong&gt;. Una vez indexadas por buscadores como &lt;a href=&quot;http://www.google.com/&quot;&gt;&lt;strong&gt;www.google.com&lt;/strong&gt;&lt;/a&gt; o por los propios sitios facilitará igualmente que se comparta conocimiento y vuestras experiencias con el resto de personas.&lt;/li&gt;
+&lt;li&gt;Quizás necesites buscar &lt;strong&gt;financiación&lt;/strong&gt; para tu proyecto. Podéis solicitar donaciones, hacer trabajos a medida relacionados con el proyecto libre, hacer labores remuneradas de consultoría, publicar en medios físicos vuestro trabajo y obtener beneficios de la venta de ese material (por poner algún ejemplo). Pero siempre intentad permitir que personas que no tienen esos recursos económicos accedan a vuestro trabajo y conocimiento (por ejemplo por Internet o mediante la copia de material impreso). La cultura y el conocimiento deberían llegar a cualquier persona independientemente de su condición y las licencias escogidas no deberían imposibilitarlo.&lt;/li&gt;
+&lt;li&gt;Intenta que &lt;strong&gt;vuestro trabajo&lt;/strong&gt; se mantenga &lt;strong&gt;siempre visible&lt;/strong&gt; y pueda ser retomado o consultado en un futuro. Los sitios webs anteriores te facilitarán esta tarea.&lt;/li&gt;
+&lt;li&gt;Si tu &lt;strong&gt;interés&lt;/strong&gt; por el proyecto libre &lt;strong&gt;disminuye&lt;/strong&gt;, busca a alguien que pueda sustituirte en el proyecto convenientemente.&lt;/li&gt;
+&lt;li&gt;En todo momento, documéntate sobre está Filosofía del Conocimiento Libre, hay muchos textos, organizaciones e iniciativas en este &lt;/li&gt;
+&lt;/ol&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="singlepage"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Consejos."></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Preguntas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.clozeidevice.ClozeIdevice" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cloze Activity"></unicode>
+           <string role="key" value="instructionsForLearners"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="10">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="104"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Provide instruction on how the cloze activity should be 
+completed. Default text will be entered if there are no changes to this field.
+"></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Instructions"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="class_"></string>
+             <string value="block instructions"></string>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Lea el párrafo que aparece abajo y complete las palabras que faltan.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="section"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="10"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_content"></string>
+           <instance class="exe.engine.field.ClozeField" reference="11">
+            <dictionary>
+             <string role="key" value="_checkCapsInstruc"></string>
+             <unicode value="&lt;p&gt;If this option is checked, submitted answers with different capitalization will be marked as incorrect.&lt;/p&gt;"></unicode>
+             <string role="key" value="_encodedContent"></string>
+             <unicode value="&lt;p&gt; &lt;u&gt;Software libre.&lt;/u&gt;  (En inglés &lt;i&gt;free&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.ecured.cu/Software&quot; title=&quot;Software&quot;&gt;software&lt;/a&gt;&lt;/i&gt;, aunque en realidad esta denominación también puede significar gratis, y no necesariamente libre, por lo que se utiliza el hispanismo &lt;b&gt;libre software&lt;/b&gt; también en inglés) es la denominación del Software que respeta la Libertad de los usuarios sobre su producto adquirido y, por tanto, una vez obtenido puede ser  &lt;u&gt;usado, copiado, estudiado, cambiado y redistribuido&lt;/u&gt;  libremente.&lt;/p&gt;"></unicode>
+             <string role="key" value="_id"></string>
+             <int value="105"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instantMarkingInstruc"></string>
+             <unicode value="&lt;p&gt;If this option is set, each word will be marked as the 
+learner types it rather than all the words being marked the end of the 
+exercise.&lt;/p&gt;"></unicode>
+             <string role="key" value="_instruc"></string>
+             <unicode value="&lt;p&gt;Enter the text for the cloze activity in to the cloze field 
+by either pasting text from another source or by typing text directly into the 
+field.&lt;/p&gt;&lt;p&gt; To select words to hide, double click on the word to select it and 
+click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possible answer can be defined enclosing them with pipes (|). I.e.: |dog|cat|bird|&lt;/p&gt;"></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Cloze"></unicode>
+             <string role="key" value="_strictMarkingInstruc"></string>
+             <unicode value="&lt;p&gt;If left unchecked a small number of spelling and capitalization errors will be accepted. If checked only an exact match in spelling and capitalization will be accepted.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;For example:&lt;/strong&gt; If the correct answer is &lt;code&gt;Elephant&lt;/code&gt; then both &lt;code&gt;elephant&lt;/code&gt; and &lt;code&gt;Eliphant&lt;/code&gt; will be judged &lt;em&gt;&quot;close enough&quot;&lt;/em&gt; by the algorithm as it only has one letter wrong, even if &quot;Check Capitalization&quot; is on.&lt;/p&gt;&lt;p&gt;If capitalization checking is off in the above example, the lowercase &lt;code&gt;e&lt;/code&gt; will not be considered a mistake and &lt;code&gt;eliphant&lt;/code&gt; will also be accepted.&lt;/p&gt;&lt;p&gt;If both &quot;Strict Marking&quot; and &quot;Check Capitalization&quot; are set, the only correct answer is &quot;Elephant&quot;. If only &quot;Strict Marking&quot; is checked and &quot;Check Capitalization&quot; is not, &quot;elephant&quot; will also be accepted.&lt;/p&gt;"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="checkCaps"></string>
+             <bool value="0"></bool>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;u&gt;&lt;b&gt;&lt;strong class=&quot;selflink&quot;&gt;Software libre&lt;/strong&gt;&lt;/b&gt;.&lt;/u&gt; (En inglés &lt;i&gt;free&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.ecured.cu/Software&quot; title=&quot;Software&quot;&gt;software&lt;/a&gt;&lt;/i&gt;, aunque en realidad esta denominación también puede significar gratis, y no necesariamente libre, por lo que se utiliza el hispanismo &lt;b&gt;libre software&lt;/b&gt; también en inglés) es la denominación del Software que respeta la Libertad de los usuarios sobre su producto adquirido y, por tanto, una vez obtenido puede ser &lt;u&gt;usado, copiado, estudiado, cambiado y redistribuido&lt;/u&gt; libremente.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.ClozeField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="11"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="instantMarking"></string>
+             <bool value="0"></bool>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+             <string role="key" value="parts"></string>
+             <list>
+              <tuple>
+               <unicode value="&lt;p&gt;"></unicode>
+               <unicode value="Software libre."></unicode>
+              </tuple>
+              <tuple>
+               <unicode value=" (En inglés &lt;i&gt;free&lt;span&gt; &lt;/span&gt;&lt;a href=&quot;https://www.ecured.cu/Software&quot; title=&quot;Software&quot;&gt;software&lt;/a&gt;&lt;/i&gt;, aunque en realidad esta denominación también puede significar gratis, y no necesariamente libre, por lo que se utiliza el hispanismo &lt;b&gt;libre software&lt;/b&gt; también en inglés) es la denominación del Software que respeta la Libertad de los usuarios sobre su producto adquirido y, por tanto, una vez obtenido puede ser "></unicode>
+               <unicode value="usado, copiado, estudiado, cambiado y redistribuido"></unicode>
+              </tuple>
+              <tuple>
+               <unicode value=" libremente.&lt;/p&gt;"></unicode>
+               <string value=""></string>
+              </tuple>
+             </list>
+             <string role="key" value="rawContent"></string>
+             <string value=""></string>
+             <string role="key" value="strictMarking"></string>
+             <bool value="0"></bool>
+            </dictionary>
+           </instance>
+           <string role="key" value="_purpose"></string>
+           <unicode value="&lt;p&gt;Cloze exercises are texts or sentences where students must fill in missing words. They are often used for the following purposes:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;To check knowledge of core course concepts (this could be a pre-check, formative exercise, or summative check).&lt;/li&gt;&lt;li&gt;To check reading comprehension.&lt;/li&gt;&lt;li&gt;To check vocabulary knowledge.&lt;/li&gt;&lt;li&gt;To check word formation and/or grammatical competence. &lt;/li&gt;&lt;/ol&gt;"></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value="&lt;dl&gt;  &lt;dt&gt;If your goal is to test understanding of core concepts or reading comprehension  &lt;/dt&gt;  &lt;dd&gt;    &lt;p&gt;  Write a summary of the concept or reading long  enough to adequately test the target's knowledge, but short enough not to induce fatigue. Less than one typed page is probably adequate, but probably considerably less for young students or beginners.    &lt;/p&gt;    &lt;p&gt;Select words in the text thatare key to understanding the concepts. Thesewill probably be verbs, nouns, and key adverbs.Choose alternatives with one clear answer.    &lt;/p&gt;  &lt;/dd&gt;  &lt;dt&gt;If your goal is to test vocabulary knowledge  &lt;/dt&gt;  &lt;dd&gt;&lt;p&gt;Write a text using the target vocabulary. This text should be coherent and cohesive, and be of an appropriate length. Highlight the target words in the text. Choose alternatives with one clear answer.&lt;/p&gt;  &lt;/dd&gt;  &lt;dt&gt;If your goal is to test word formation/grammar:  &lt;/dt&gt;  &lt;dd&gt;  &lt;p&gt;Write a text using the target forms. This text should be coherent and cohesive, and be of an appropriate length. Remember that the goal is not vocabulary knowledge, so the core meanings of the stem words should be well known to the students.  &lt;/p&gt;  &lt;p&gt;Highlight the target words in the text. Provide alternatives with the same word stem, but different affixes. It is a good idea to get a colleague to test the test/exercise to make sure there are no surprises!  &lt;/p&gt;  &lt;/dd&gt;&lt;/dl&gt;"></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.clozeidevice.ClozeIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="feedback"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="12">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="106"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter any feedback you wish to provide the learner with-in the feedback field. This field can be left blank."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Feedback"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value=""></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="section"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="12"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="icon"></string>
+           <unicode value="question"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="isCloze"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <unicode value="question"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="13"></reference>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.truefalseidevice.TrueFalseIdevice" reference="14">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="True-False Question"></unicode>
+           <string role="key" value="instructionsForLearners"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="15">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="100"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="14"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Provide instruction on how the True/False Question should be 
+completed."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Instructions"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value=""></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="15"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_feedbackInstruc"></string>
+           <unicode value="Enter any feedback you wish to provide 
+to the learner. This field may be left blank. if this field is left blank 
+default feedback will be provided."></unicode>
+           <string role="key" value="_hintInstruc"></string>
+           <unicode value="A hint may be provided to assist the 
+learner in answering the question."></unicode>
+           <string role="key" value="_keyInstruc"></string>
+           <string value=""></string>
+           <string role="key" value="_purpose"></string>
+           <unicode value="True/false questions present a statement where 
+the learner must decide if the statement is true. This type of question works 
+well for factual information and information that lends itself to either/or 
+responses."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Type the question stem. The question 
+should be clear and unambiguous. Avoid negative premises as these can tend to 
+be ambiguous."></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.truefalseidevice.TrueFalseIdevice.persistenceVersion"></string>
+           <int value="11"></int>
+           <string role="key" value="icon"></string>
+           <unicode value="question"></unicode>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <unicode value="question"></unicode>
+           <string role="key" value="parentNode"></string>
+           <reference key="13"></reference>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.truefalseidevice.TrueFalseQuestion">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="16">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="97"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Escriba la pregunta. La pregunta 
+debe ser clara y no ambigua. Evite las premisas negativas ya que esta tienden a 
+ser ambiguas."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;Todo Software libre es público&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="16"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="feedbackTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="17">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="98"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Introduzca la retroalimentación que quiere 
+que vean los estudiantes después de haber intentado completar la actividad. 
+Este campo se puede dejar vacío. Si este campo está vacío se ofrecerá la retroalimentación por defecto."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Feedback"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value=""></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="17"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="hintTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="18">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="99"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Se puede proporcionar una pista para ayudar al 
+estudiante a responder la pregunta."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Hint"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value=""></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="18"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.truefalseidevice.TrueFalseQuestion">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="19">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="203"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Escriba la pregunta. La pregunta 
+debe ser clara y no ambigua. Evite las premisas negativas ya que esta tienden a 
+ser ambiguas."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;¿Sólo hay programas libres para Linux?&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="19"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="feedbackTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="20">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="204"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Introduzca la retroalimentación que quiere 
+que vean los estudiantes después de haber intentado completar la actividad. 
+Este campo se puede dejar vacío. Si este campo está vacío se ofrecerá la retroalimentación por defecto."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Feedback"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value=""></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="20"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="hintTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="21">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="205"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Se puede proporcionar una pista para ayudar al 
+estudiante a responder la pregunta."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Hint"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value=""></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="21"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="14"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+            <string value="panel-amusements.png"></string>
+            <string value="stock-stop.png"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="singlepage"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Inicio:Preguntas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="13"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="13"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="15"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-10-30T14:55:55.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-10-30T14:55:55.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>
