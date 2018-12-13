@@ -25,7 +25,7 @@
         return;
       }
     } else {
-      $_SESSION['errorRE'] = 'Contraseñas no coinciden.';
+      $_SESSION['errorRE'] = 'ContraseÃ±as no coinciden.';
     }
   }
 ?>
@@ -50,7 +50,7 @@
     <?php
       if ( isset($_SESSION["errorRE"]) ) {
         echo('<div class="alert alert-danger alert-dismissable">');
-        echo('<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>');
+        echo('<a href="#" class="close" data-dismiss="alert" aria-label="close">Ã—</a>');
         echo('<strong>Error! </strong>' . $_SESSION["errorRE"]);
         echo('</div>');
         unset($_SESSION["errorRE"]);
@@ -61,8 +61,8 @@
       <div class="card-body">
         <form method="post">
           <div class="form-group">
-            <label for="cedula">Cédula</label>
-            <input class="form-control" id="cedula" name="cedula" type="text" pattern="\d*" maxlength="10" placeholder="Ingrese su cédula" required>
+            <label for="cedula">CÃ©dula</label>
+            <input class="form-control" id="cedula" name="cedula" type="text" pattern="\d*" maxlength="10" placeholder="Ingrese su cÃ©dula" required>
           </div>
           <div class="form-group">
             <div class="form-row">
@@ -78,7 +78,13 @@
           </div>
           <div class="form-group">
             <label for="correo">Correo electronico</label>
-            <input class="form-control" id="correo" name="correo" type="email" placeholder="Ingrese su correo electronico" required>
+            <input class="form-control" id="correo" name="correo" type="email" placeholder="Ingrese su correo institucional" required>
+            <p id="error_correo_invalido" style="display:none; color:#FF0000;">
+                Correo invÃ¡lido, debe ingresar un correo acÃ¡demico
+            </p>
+            <p id="error_correo_duplicado" style="display:none; color:#FF0000;">
+                El correo ya existe!!
+            </p>
           </div>
           <div class="form-group">
             <label for="carrera">Carrera</label>
@@ -110,16 +116,16 @@
           <div class="form-group">
             <div class="form-row"> 
               <div class="col-md-6"> 
-                <label for="pw">Contraseña</label> 
-                <input class="form-control" id="pw" name="pw" type="password" placeholder="Contraseña" required> 
+                <label for="pw">ContraseÃ±a</label> 
+                <input class="form-control" id="pw" name="pw" type="password" placeholder="ContraseÃ±a" required> 
               </div> 
               <div class="col-md-6"> 
-                <label for="pwconfirm">Confirmar contraseña</label> 
-                <input class="form-control" id="pwConf" name="pwConf" type="password" placeholder="Confirmar contraseña" required> 
+                <label for="pwconfirm">Confirmar contraseÃ±a</label> 
+                <input class="form-control" id="pwConf" name="pwConf" type="password" placeholder="Confirmar contraseÃ±a" required> 
               </div> 
             </div>
           </div>
-          <input class="btn btn-primary btn-block" type="submit" value="Registrarse">
+          <input class="btn btn-primary btn-block" id="registrar" type="submit" value="Registrarse">
         </form>
         <div class="text-center">
           <a class="d-block small mt-3" href="login.php">Regresar a Login</a>
@@ -132,6 +138,43 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script>
+            //funcion validacion objetos
+            function verificar_dominio(arreglo) {
+                var flag = false;
+                valor="edu";
+                for (i = 0; i < arreglo.length; i++)
+                {
+                    if (arreglo[i].trim().localeCompare(valor.trim()) === 0){
+                      flag = true;
+                      i=arreglo.length;
+                    }
+                        
+                }
+                return flag;
+            }
+            $('#correo').focusout(function () {
+                email = $('#correo').val();
+                longSub=email.indexOf('@');
+                email_validate=email.substring(longSub+1,email.length);
+                email_validate=email_validate.split('.');
+                //alert(email_validate);
+                if(email.substring(0,longSub)!=""){
+                  if (verificar_dominio(email_validate)) {
+                    $('#error_correo_invalido').slideUp("slow");
+                    document.getElementById("registrar").disabled = false;
+                  } else {
+                      $('#error_correo_invalido').slideDown("slow");
+                      document.getElementById("registrar").disabled = true;
+                    }
+                }else {
+                  $('#error_correo_invalido').slideDown("slow");
+                  document.getElementById("registrar").disabled = true;
+                }
+                
+            });
+
+        </script>
 </body>
 
 </html>
