@@ -49,6 +49,7 @@
 
 <head>
   <?php
+  //llamada a head.php
   require "head.php";
   ?>
 
