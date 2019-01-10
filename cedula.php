@@ -6,6 +6,7 @@
         $numero = (string)$numero;
         // validaciones
         try {
+            //cedula
             validarInicial($numero, '10');
             validarCodigoProvincia(substr($numero, 0, 2));
             algoritmoModulo10(substr($numero, 0, 9), $numero[9]);
