@@ -45,6 +45,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!--inicio de html-->
 
 <head>
   <?php
