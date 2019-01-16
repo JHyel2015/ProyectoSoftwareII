@@ -8,7 +8,7 @@
 
     <title>Gestión de Objetos de Aprendizaje</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap nucleo CSS -->
     <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Google Web Font -->
