@@ -292,9 +292,7 @@ if (@!$_SESSION['usuario']) {
             }
 
         </script>
-        <footer class="label-default container-fluid text-center">
-            <p class="copyright small">Copyright &copy; Jaime Crespin, Jossué Dután, Alexis Maldonado 2018</p>
-        </footer>
+        <?php include '../modulos_comunes/footer.php'; ?>
     </body>
 
 </html>
