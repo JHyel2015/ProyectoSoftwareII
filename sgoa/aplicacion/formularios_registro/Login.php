@@ -10,7 +10,7 @@
         <!-- intro.js -->
         <link href="../../intro.js/introjs.css" rel="stylesheet">
 
-        <title>Proyecto SSC</title>
+        <title>Proyecto SGOA</title>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
