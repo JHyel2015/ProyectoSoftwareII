@@ -9,7 +9,7 @@ if (@!$_SESSION['usuario']) {
     echo "eres estudiante";
 }
 
-    require_once 'High/examples/pie-basic/conexion.php';
+    require_once '../modulos_profesor/High/examples/pie-basic/conexion.php';
     $sql = "select * from facultad";
     $result = mysqli_query($conexion, $sql); 
 ?>
@@ -104,9 +104,10 @@ if (@!$_SESSION['usuario']) {
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
+                        <li ><a href="../modulos_comunes/index.php">Home</a></li>
                         <li class="active"><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
                         <li><a data-step="3" data-intro="Puedes Buscar tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
-                        <li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
+                        <!--li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li-->
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
@@ -178,18 +179,12 @@ if (@!$_SESSION['usuario']) {
                             <br/>
                         <input class="btn-group-sm" type="submit" value="Subir OAs"/>
                     </form>
-
+                    </br></br>
+                    <a class="btn btn-info btn-default" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Ayuda</a>
+                    </br></br>
                 </div>
             </div>
-        </div></br></br></br>
-
-        <footer class="label-default container-fluid text-center">
-            <script type="text/javascript" src="../../intro.js/intro.js"></script>
-            <a class="btn btn-info btn-default" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Ayuda</a>
-            <br/>
-            <p class="copyright small">Copyright &copy; Daniel Crespin, Jossué Dután, Alexis Maldonado 2018</p>
-
-        </footer>
+        </div>
 
 
 
@@ -301,5 +296,7 @@ if (@!$_SESSION['usuario']) {
             }
         </script>
     </body>
+    </br>
+    <?php include '../modulos_comunes/footer.php';?>
 
 </html>

@@ -142,42 +142,18 @@ if (@!$_SESSION['usuario']) {
 
 
     <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
-                    <div class="pull-left image">
-                        <?php
-                            if($usr==1){
-                                require_once'../clases_negocio/funciones_oa_estudiante.php';
-                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                            
-                            }else{
-                                require_once'../clases_negocio/funciones_oa_profesor.php';
-                                echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                            }
-                            
-                        ?>
-                    </div>
-                    <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
-                        <li><a data-step="3" data-intro="Puedes Buscar tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
-                        <li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
-                        <li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php
+            if($usr==1){
+                //require_once'../clases_negocio/funciones_oa_estudiante.php';
+                //echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                include '../modulos_estudiante/navbar_estudiante.php';
+            }else{
+                require_once'../clases_negocio/funciones_oa_profesor.php';
+                //echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                include '../modulos_administrador/navbar_admin.php';
+            }
+            
+        ?>
         <div class="container">
             <div class="row content">
                 <div class="col-sm-12 text-center">
@@ -242,4 +218,8 @@ if (@!$_SESSION['usuario']) {
             </div>
         </div>
     </body>
+    <br><br>
+    <br><br>
+
+    <?php include 'footer.php'; ?>
 </html>

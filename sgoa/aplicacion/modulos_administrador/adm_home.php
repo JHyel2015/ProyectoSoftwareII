@@ -1,13 +1,13 @@
 <body>
-    <?php
-        include 'navbar_estudiante.php';
+    <?php 
+        include 'navbar_admin.php';
     ?>
     <!-- presentacion de objetos de aprendizaje-->
     <div class="container text-center">
         <div class="row content">
             <!-- --------------------------------------------- -->
             <div class="col-sm-12 text-center">
-                <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">BIENVENIDO AL FORO DE AYUDA</h2>
+                <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">ADMINISTRACION DEL FORO</h2>
                 
                 <div class="container-fluid" >
                     <table  class="table table-striped"border ="1|1" class="table table-bordered" id="tabla">
