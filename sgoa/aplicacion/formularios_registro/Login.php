@@ -12,33 +12,13 @@
 
         <title>Proyecto SGOA</title>
     </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../../index.php">Inicio</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="tour-step tour-step-two collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="Login.php">Login</a></li>
-                        <!--<li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>-->
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container -->
-        </nav>
+    <body>        
+        <?php include 'navBarIndex.php'; ?>
 
         <div class="intro-header">
         <form action="../../aplicacion/validar.php" method="post">
-            <h2 style="color: #004e91; font-size: 250%;">Sistema de soluciones compartidas</h2>
+            <h1 style="color: #004e91;">SSC</h1>
+            <h3 style="color: #004e91;">Sistema de Soluciones Compartidas</h3>
             <br>
             <select data-step="1" data-intro="¡Bienvenido! Selecciona tu usuario para ingresar al sistema" class= "form-control" name="tipo_usuario" dir="ltr" required>
                 <option value="">Tipo de Usuario</option>
@@ -62,14 +42,6 @@
                 <span class="glyphicon glyphicon-log-in"></span> Iniciar sesión
             </button>
             <!--<h2 style = "color: #004e91; font-size: 80%"; align="right"> ¿Olvidó su contraseña? </h2>-->
-        </form>
-        <form method="post">
-            <h2 style="color: #004e91; font-size: 250%;">Regístrate</h2>
-            <div data-step="3" data-intro="En esta sección te puedes registrar" class="Registro_usuarios">
-                <td width="50%"> <a href="../../aplicacion/formularios_registro/RegistrarProfesor.php"> Registrar Profesor</a></td></br>
-                <label></label>
-                <td width="50%" align="right" valign="middle"><a href="../../aplicacion/formularios_registro/RegistrarEstudiante.php"> Registrar Estudiante</a></td>
-            </div>
         </form>
         <script type="text/javascript" src="../../intro.js/intro.js"></script>
         <br/>

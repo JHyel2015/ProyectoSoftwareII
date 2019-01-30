@@ -12,6 +12,7 @@
         <title>Proyecto SGOA</title>
     </head>
     <body >
+        <?php include 'navBarIndex.php'; ?>
         <form action="ejecutar_registrar_estudiante.php"  onsubmit="return validar_formulario_estudiante()" method="post" enctype="multipart/form-data" >
             <legend style="font-size: 18pt;" ><b>Registro Estudiante</b></legend>
 
