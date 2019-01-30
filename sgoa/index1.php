@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"></link>
         <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-responsive.css"></link>
         <link rel="stylesheet" type="text/css" href="estilos/estilos.css"></link>
-        <title>Proyecto SGOA</title>
+        <title>Proyecto SSC</title>
 
 
     </head>
