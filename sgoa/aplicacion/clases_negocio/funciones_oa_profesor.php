@@ -198,6 +198,21 @@ function obtener_lista_de_usuarios() {
     return implode(',', $arreglo);
 }
 
+function obtener_lista_de_correo_usuarios() {
+    $conexion = new Conexion();
+    $statement = 'select mail from estudiante';
+    $consulta = $conexion->prepare($statement);
+    $consulta->setFetchMode(PDO::FETCH_ASSOC);
+    $consulta->execute();
+    $arreglo = [];
+    if ($consulta->rowCount() != 0) {
+        while ($row = $consulta->fetch()) {
+            array_push($arreglo, $row['mail']);
+        }
+    }
+    return implode(',', $arreglo);
+}
+
 function insertar_usuario($usuario, $contrasenia, $tipo_usuario, $esta_activo) {
     $conexion = new Conexion();
     $statement = 'INSERT INTO usuario (usuario,contrasenia,tipo_usuario, activo) VALUES (?,?,?, ?)';
