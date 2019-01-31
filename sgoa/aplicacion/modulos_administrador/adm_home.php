@@ -20,6 +20,8 @@
                             </tr>
                         </thead>
                     <?php 
+                        require_once '../clases_negocio/clase_conexion.php';
+                        require '../clases_negocio/funciones_administrador.php';
                         include("conexionBD.php");
                         $query = "SELECT * FROM  foro WHERE identificador = 0 ORDER BY fecha DESC";
                         $result = $mysqli->query($query);
@@ -31,11 +33,22 @@
                             echo "<tr style='background-color:#BAD6B8'>";
                                 echo "<td><a href='foro.php?id=$id'><span class='glyphicon glyphicon-hand-right'> Participar</a></td>";
                                 echo "<td>$titulo</td>";
-                                echo "<td>".date("d-m-y,$fecha")."</td>";
+                                echo "<td>".date("$fecha")."</td>";
                                 echo "<td>$respuestas</td>";
+                                echo "<td><a onClick=\"javascript: return confirm('Realmente desea eliminar el foro seleccionado? Se eliminarán todos las respuestas asociadas al mismo.');\" href='index.php?id=" . $row['ID'] . "&id_gestion=1'><span class='glyphicon glyphicon-remove'></a></td>";
                             echo "</tr>";
                         }
                         echo '</table>';
+                        $id_gestion = filter_input(INPUT_GET, 'id_gestion');
+                        $id = filter_input(INPUT_GET, 'id');
+                        if ($id_gestion == 1) {
+                            if (eliminar_foro($id)) {
+                                echo '<script>alert("Foro eliminado correctamente")</script> ';
+                            } else {
+                                echo '<script>alert("El Foro no se ha podido eliminar")</script> ';
+                            }
+                            echo "<script>location.href='../modulos_comunes/index.php'</script>";
+                        }
                     ?>
                 </div>
                     <a type="button" class="btn btn-lg btn-primary" href="formulario.php"><i class='glyphicon glyphicon-plus'></i> Nuevo Tema </a>
