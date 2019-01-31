@@ -109,7 +109,7 @@ if (@!$_SESSION['usuario']) {
                             
                         ?>
                     </div>
-                    <a class="navbar-brand" href="../modulos_estudiante/editUser.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+                    <a class="navbar-brand" href="#"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -145,6 +145,7 @@ if (@!$_SESSION['usuario']) {
                         <input type="hidden" name="identificador" value="<?php echo $identificador;?>">
                         <input type="hidden" name="respuestas" value="<?php echo $respuestas;?>">
                         <div class="row">
+                            
                             <label class="col-xs-3">Autor:</label>
                             <div class="col-xs-9">
                                 <input type="text" name="autor" style = "visibility:hidden" >
@@ -152,12 +153,12 @@ if (@!$_SESSION['usuario']) {
                         </div>
                         <br>
                         <div class="row">
-                            <label class="col-sm-3">Titulo:</label>
+                            <label class="col-sm-3">Asunto:</label>
                             <div class="col-sm-9">
                                 <input type="text"  name="titulo">
                             </div>
                         </div>
-                        <br>
+                        <hr>
                         <div class="row">
                             <label class="col-sm-3">Mensaje:</label>
                             <div class="col-sm-9">

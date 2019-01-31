@@ -302,8 +302,9 @@ if (@!$_SESSION['usuario']) {
             }
 
         </script>
-        
-        <?php include '../modulos_comunes/footer.php'; ?>
+        <footer class="label-default container-fluid text-center">
+            <p class="copyright small">Copyright &copy; Alex Ulloa,  Miguel Alvarez, Jossué Dután, Alexis Maldonado 2018</p>
+        </footer>
     </body>
 
 </html>

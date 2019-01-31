@@ -8,19 +8,20 @@
             </button>
             <div class="pull-left image">
                 <?php
+                 
                     require_once'../clases_negocio/funciones_oa_estudiante.php';
                     echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                 
                 ?>
             </div>
-            <a class="navbar-brand" href="../modulos_estudiante/est_perfilEdit.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+            <a class="navbar-brand" href="../modulos_estudiante/editUser.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="../modulos_comunes/index.php">Home</a></li>
                 <!--li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li-->
-                <li><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
-                <li><a data-step="3" data-intro="Puedes Buscar tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
+                
+                <li><a data-step="3" data-intro="" href="../modulos_comunes/index.php">Foro</a></li>
                 <!--li><a data-step="4" data-intro="Puedes encontrar herramientas útiles para crear tus objetos de aprendizaje aquí" href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li-->
             </ul>
             <ul class="nav navbar-nav navbar-right">

@@ -6,9 +6,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sistema de Soluciones Compartidas</title>
+    <title>Gestión de Objetos de Aprendizaje</title>
 
-    <!-- Bootstrap nucleo CSS -->
+    <!-- Bootstrap core CSS -->
     <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Google Web Font -->
@@ -38,7 +38,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="tour-step tour-step-two collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="aplicacion/formularios_registro/Signin.php">Signin</a></li>
                 <li><a href="aplicacion/formularios_registro/Login.php">Login</a></li>
                 <!--<li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>-->

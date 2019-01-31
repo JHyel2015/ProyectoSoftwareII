@@ -37,10 +37,10 @@
     actualizar_usuario($id_usuario, $usuario);
     if(actualizar_estudiante($nombres, $apellidos, $carrera, $facultad, $email, $id_usuario,$target_file)){
         echo '<script>alert("Usuario actualizado correctamente! Puede ingresar al sistema")</script> ';
-        echo "<script>location.href='../modulos_estudiante/est_perfilEdit.php'</script>";
+        echo "<script>location.href='../modulos_estudiante/editUser.php'</script>";
     }else{
         echo '<script>alert("No se ha podido actualizar el usuario. Contacte a un administrador")</script> ';
-        echo "<script>location.href='../modulos_estudiante/est_perfilEdit.php'</script>";
+        echo "<script>location.href='../modulos_estudiante/editUser.php'</script>";
     }
 
 

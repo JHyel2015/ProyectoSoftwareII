@@ -12,7 +12,6 @@
         <title>Proyecto SGOA</title>
     </head>
     <body>
-        <?php include 'navBarIndex.php'; ?>
         
         <form method="post" action="ejecutar_registrar_profesor.php"  onsubmit=" return validar_formulario_profesor()" >
             <legend style="font-size: 18pt;" ><b>Registro Profesor</b></legend>

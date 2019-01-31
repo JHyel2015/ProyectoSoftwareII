@@ -9,28 +9,24 @@
         <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/funciones_validar_formularios.js"></script>
-        <title>Proyecto SSC</title>
+        <title>Proyecto SGOA</title>
     </head>
     <body >
-        <?php include 'navBarIndex.php'; ?>
         <form action="ejecutar_registrar_estudiante.php"  onsubmit="return validar_formulario_estudiante()" method="post" enctype="multipart/form-data" >
             <legend style="font-size: 18pt;" ><b>Registro Estudiante</b></legend>
 
             <input class="form-control" placeholder=" Cédula"  id="cedula" type="text" required name="cedula">
             <input class="form-control" placeholder=" Nombres"  id="nombres" type="text" required name="nombres">
             <input class="form-control" placeholder=" Apellidos"  id="apellidos" type="text" required name="apellidos">
-            
-            <p id="correos_existentes" style="display:none;" >
-                <?php
-                    //echo implode(",", scandir('../../storage/')); 
-                    require '../clases_negocio/funciones_oa_profesor.php';
-                    echo obtener_lista_de_correo_usuarios();
-                ?>
-            </p>
+            <p id="correos_existentes" style="display:none;" ><?php
+                            //echo implode(",", scandir('../../storage/')); 
+                            require '../clases_negocio/funciones_oa_estudiante.php';
+                            echo obtener_lista_de_correos();
+                            ?></p>
             <p id="error_correos_duplicados" style="display:none; color:#FF0000;">
-                El correo ya existe!!;
-            </p>
+                                El correo ya existe!!;
 
+                            </p>
             <input class="form-control" placeholder=" E-mail"   id="email" type="email" required name="email">
             <input class="form-control" placeholder=" Carrera"   id="carrera" type="text" required name="carrera"> 
             <label style="font-size: 10pt;color:#808080" >Facultad</label>
@@ -51,15 +47,14 @@
             echo '</select></br>';
             $consulta1 = null;
             ?>
-            <p id="usuarios_existentes" style="display:none;" >
-                <?php
-                    //echo implode(",", scandir('../../storage/')); 
-                    //require '../clases_negocio/funciones_oa_profesor.php';
-                    echo obtener_lista_de_usuarios();
-            ?></p>
+            <p id="usuarios_existentes" style="display:none;" ><?php
+                            //echo implode(",", scandir('../../storage/')); 
+                            require '../clases_negocio/funciones_oa_profesor.php';
+                            echo obtener_lista_de_usuarios();
+                            ?></p>
             <p id="error_usuarios_duplicados" style="display:none; color:#FF0000;">
-                El usuario ya existe!!;
-            </p>
+                                El usuario ya existe!!;
+                            </p>
             <input class="form-control" placeholder=" Usuario"  id="usuario" type="text" required name="usuario">
             <input class="form-control" placeholder=" Contraseña"   id="contrasenia" type="password"required name="contrasenia">
             <input class="form-control" placeholder=" Confirme Contraseña"   id="contrasenia1" type="password"required name="contrasenia1"><br>
@@ -86,8 +81,13 @@
             $(document).ready(function () {
                 var isvalue = document.getElementById("usuarios_existentes").innerHTML;
                 isvalue = isvalue.split(',');
+                var mail = document.getElementById("correos_existentes").innerHTML;
+                mail=mail.split(',');
+                var existe=false;
+                var existe1=false;
                 $('#usuario').keyup(function () {
                     let useramount = $(this).val();
+                    existe=false;
                     //alert(useramount+'.zip');
                     //alert(isvalue.includes(String(useramount + '.zip')));
                     if (comprobar_existencia(isvalue, useramount)) {
@@ -95,24 +95,30 @@
                         document.getElementById("registrar").disabled = true;
                     } else {
                         $('#error_usuarios_duplicados').slideUp("slow");
+                        existe=true;
+                    }
+                    if(existe == true && existe1==true){
                         document.getElementById("registrar").disabled = false;
                     }
                 });
-                var isvaluemails = document.getElementById("correos_existentes").innerHTML;
-                isvaluemails = isvaluemails.split(',');
-                $('#email').keyup(function () {
-                    let useramountmail = $(this).val();
-                    //alert(useramount+'.zip');
-                    //alert(isvalue.includes(String(useramount + '.zip')));
-                    if (comprobar_existencia(isvaluemails, useramountmail)) {
+                
+                $("#email").keyup(function(){
+                    let mailamount = $(this).val();
+                    existe1=false;
+                    if (comprobar_existencia(mail, mailamount)) {
                         $('#error_correos_duplicados').slideDown("slow");
                         document.getElementById("registrar").disabled = true;
                     } else {
                         $('#error_correos_duplicados').slideUp("slow");
+                        existe1=true;
+                    }
+                    if(existe == true && existe1==true){
                         document.getElementById("registrar").disabled = false;
                     }
+
                 });
             });
+            
 
         </script>
     </body>

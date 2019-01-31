@@ -40,18 +40,6 @@ function eliminar_usuario($id_usuario)
     }
 }
 
-function eliminar_foro($id_foro)
-{
-    $statement_del = "DELETE FROM foro WHERE ID=? OR identificador=?";
-    $conexion_del = new Conexion();
-    $consulta_del = $conexion_del->prepare($statement_del);
-    if ($consulta_del->execute(array($id_foro,$id_foro))) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 function eliminar_objetos_aprendizaje_asociados_a_id($id_usuario)
 {
     $conexion = new Conexion();

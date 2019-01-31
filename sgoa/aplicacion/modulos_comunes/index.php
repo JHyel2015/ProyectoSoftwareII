@@ -5,10 +5,10 @@ if (@!$_SESSION['usuario']) {
     header("Location:../../index2.php");
 } elseif ($_SESSION['tipo_usuario'] == 'EST') {
     //header("Location:index2.php");
-    echo "Estudiante";
+    echo "eres estudiante";
     $usr=1;
 } elseif ($_SESSION['tipo_usuario'] == 'ADM') {
-    echo "Administrador";
+    echo "eres administrador";
 }
 
     require_once '../modulos_profesor/High/examples/pie-basic/conexion.php';
@@ -38,7 +38,7 @@ if (@!$_SESSION['usuario']) {
         </script>
 
         <link href="../../intro.js/introjs.css" rel="stylesheet">
-        <title>Proyecto SSC</title>
+        <title>Proyecto SGOA</title>
     </head>
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -72,7 +72,7 @@ if (@!$_SESSION['usuario']) {
         footer {
             background-color: #555;
             color: white;
-            /*padding: 0px;*/
+            padding: 15px;
             position: absolute;
             bottom: 0;
             width: 100%;
@@ -89,13 +89,108 @@ if (@!$_SESSION['usuario']) {
     </style>
 
 
-    <?php
-        if($usr==1){
-            include '../modulos_estudiante/est_home.php';
-        
-        }else{
-            include '../modulos_administrador/adm_home.php';
-        }
-    ?>
-    <?php include 'footer.php'; ?>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="pull-left image">
+                        <?php
+                            if($usr==1){
+                                require_once'../clases_negocio/funciones_oa_estudiante.php';
+                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            
+                            }else{
+                                require_once'../clases_negocio/funciones_oa_profesor.php';
+                                //echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            }
+                            
+                        ?>
+                    </div>
+                    <a class="navbar-brand" href="../modulos_estudiante/editUser.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
+                        <li><a href="../modulos_administrador/adm_buscar_profesores.php">Gestionar profesores</a></li>
+                        <li><a href="../modulos_administrador/adm_buscar_estudiantes.php">Gestionar Estudiantes</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- presentacion de objetos de aprendizaje-->
+        <div class="container text-center">
+            <div class="row content">
+                <!------------------------------------------------->
+                <div class="col-sm-12 text-center">
+                    <h2> <img src="../../images/foro.png"style="float:left;width:300px;height:170px">BIENVENIDO AL FORO DE AYUDA</h2>
+                    <div class="col-md-3 text-center">
+                    <input type="text" class="form-control" id="criterio_busqueda" placeholder="Buscar...." name="criterio_busqueda" required></br>
+                    <button type="button" class = "btn btn-primary" onClick="buscar()">Buscar</button>
+                </div>
+                <div class="col-md-3 text-left">
+                <script>
+                function buscar(){
+                var dato = $('#criterio_busqueda').val();
+                $.ajax({
+                    data: {"dato" : dato},
+                    url: "busqueda.php",
+                    type: "post",
+                    success:  function (response) {
+                        location.href='../modulos_comunes/busqueda.php?criterio='+dato;
+                }
+                });
+            }
+ </script>
+                    </br>
+                </div>
+                    <div class="container-fluid" >
+                        <table  class="table table-striped"border ="1|1" class="table table-bordered" id="tabla">
+                            <thead style="background-color:#FFFFCC">
+                                <tr>
+                                    <td ></td>
+                                    <td>Titulo</td>
+                                    <td>Fecha</td>
+                                    <td>Respuestas</td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                    </div>
+                        <?php 
+                            include("conexionBD.php");
+                            $query = "SELECT * FROM  foro WHERE identificador = 0  ORDER BY fecha DESC";
+                            $result = $mysqli->query($query);
+                            while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+                                $id = $row['ID'];
+                                $titulo = $row['titulo'];
+                                $fecha = $row['fecha'];
+                                $autor = $row['autor'];
+                                $respuestas = $row['respuestas'];
+                                echo "<tr style='background-color:#BAD6B8'>";
+                                    echo "<td><a href='foro.php?id=$id'><span class='glyphicon glyphicon-hand-right'> Participar</a></td>";
+                                    echo "<td>$titulo</td>";
+                                    echo "<td>".date("d-m-y,$fecha")."</td>";
+                                    echo "<td>$respuestas</td>";
+                                    if($_SESSION["usuario"]== $autor)
+                                    echo "<td><a href='eliminar.php?id=$id'><span class='glyphicon glyphicon-hand-right'> Eliminar</a></td>";
+                                    else
+                                    echo "<td> </td>";
+                                    echo "</tr>";
+                            }
+                            echo '</table>';
+                        ?>
+                        <a type="button" class="btn btn-lg btn-primary" href="formulario.php"><i class='glyphicon glyphicon-plus'></i> nuevo tema </a>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
 </html>

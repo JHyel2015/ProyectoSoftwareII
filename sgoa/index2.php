@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="estilos/style.css"></link>
 
 
-        <title>Proyecto SSC</title>
+        <title>Proyecto SGOA</title>
     </head>
     <body>
         <form action="aplicacion/validar.php" method="post">

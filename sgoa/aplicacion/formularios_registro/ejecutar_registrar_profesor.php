@@ -15,15 +15,12 @@ $carpeta = "../../imagenes/";
 opendir($carpeta);
 $destino = $carpeta.$_FILES['file']['name'];
 
-if($_FILES['file']['tmp_name']==""){
-    $target_file = "../../imagenes/prof.png";
-}else{
-    copy($_FILES['file']['tmp_name'], $destino);
-    $path = $_FILES['file']['name'];
+copy($_FILES['file']['tmp_name'], $destino);
+$path = $_FILES['file']['name'];
 
-    $ext = pathinfo($path, PATHINFO_EXTENSION);
-    $target_file = $carpeta .urlencode($path);
-}
+$ext = pathinfo($path, PATHINFO_EXTENSION);
+$target_file = $carpeta .urlencode($path);
+
 insertar_usuario($usuario, $contrasenia,'PRO', 'F');
 $id_usuario= recuperar_id_usuario_por_nombre($usuario);
 if(insertar_profesor($cedula, $nombres, $apellidos, $departamento, $facultad, $email, $id_usuario, $target_file)){

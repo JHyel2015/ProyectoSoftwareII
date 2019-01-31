@@ -197,37 +197,21 @@ function obtener_lista_de_usuarios() {
     }
     return implode(',', $arreglo);
 }
-
-function obtener_lista_de_correo_usuarios() {
-    $conexion = new Conexion();
-    $statement = 'select mail from estudiante';
-    $consulta = $conexion->prepare($statement);
-    $consulta->setFetchMode(PDO::FETCH_ASSOC);
-    $consulta->execute();
-    $arreglo = [];
-    if ($consulta->rowCount() != 0) {
-        while ($row = $consulta->fetch()) {
-            array_push($arreglo, $row['mail']);
-        }
-    }
-    return implode(',', $arreglo);
-}
-
-function insertar_usuario($usuario, $contrasenia, $tipo_usuario, $esta_activo) {
-    $conexion = new Conexion();
-    $statement = 'INSERT INTO usuario (usuario,contrasenia,tipo_usuario, activo) VALUES (?,?,?, ?)';
-    $consulta = $conexion->prepare($statement);
-    if ($consulta->execute(array($usuario, $contrasenia, $tipo_usuario, $esta_activo))) {
-        return true;
-    } else {
-        return false;
-    }
-}
 function actualizar_usuario($id_usuario, $usuario) {
     $conexion = new Conexion();
     $statement = 'UPDATE usuario SET usuario=? WHERE idUsuario=?';
     $consulta = $conexion->prepare($statement);
     if ($consulta->execute(array($usuario, $id_usuario))) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function insertar_usuario($usuario, $contrasenia, $tipo_usuario, $esta_activo) {
+    $conexion = new Conexion();
+    $statement = 'INSERT INTO usuario (usuario,contrasenia,tipo_usuario, activo) VALUES (?,?,?, ?)';
+    $consulta = $conexion->prepare($statement);
+    if ($consulta->execute(array($usuario, $contrasenia, $tipo_usuario, $esta_activo))) {
         return true;
     } else {
         return false;

@@ -12,20 +12,16 @@ $facultad = filter_input(INPUT_POST, 'facultad');
 $usuario = filter_input(INPUT_POST, 'usuario');
 $contrasenia = filter_input(INPUT_POST, 'contrasenia');
 
-
 $carpeta = "../../imagenes/";
 opendir($carpeta);
 $destino = $carpeta.$_FILES['file']['name'];
 
-if($_FILES['file']['tmp_name']==""){
-    $target_file = "../../imagenes/est.png";
-}else{
-    copy($_FILES['file']['tmp_name'], $destino);
-    $path = $_FILES['file']['name'];
+copy($_FILES['file']['tmp_name'], $destino);
+$path = $_FILES['file']['name'];
 
-    $ext = pathinfo($path, PATHINFO_EXTENSION);
-    $target_file = $carpeta .urlencode($path);
-}
+$ext = pathinfo($path, PATHINFO_EXTENSION);
+$target_file = $carpeta .urlencode($path);
+
 insertar_usuario($usuario, $contrasenia,'EST', 'V');
 $id_usuario= recuperar_id_usuario_por_nombre($usuario);
 if(insertar_estudiante($cedula, $nombres, $apellidos, $carrera, $facultad, $email, $id_usuario,$target_file)){

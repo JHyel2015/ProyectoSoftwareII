@@ -66,6 +66,45 @@ if (@!$_SESSION['usuario']) {
         .table > tbody > tr > td {
             vertical-align: middle;
         }
+        .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 200px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 
     </style>
 
@@ -114,7 +153,7 @@ if (@!$_SESSION['usuario']) {
                     $id_usuario = $_SESSION['id'];
 
 
-                    echo '<table border ="1|1" class="table table-condensed";>';
+                    echo '<table border ="1|1" class="table table-condensed" id="tablaUsuarios";>';
                     echo '<tr class="warning">';
                     echo '<td>Id usuario</td>';
                     echo '<td>Usuario</td>';
@@ -139,7 +178,10 @@ if (@!$_SESSION['usuario']) {
                                 echo '<td><a href="adm_buscar_estudiantes.php?id=' . $row['idUsuario'] . '&id_gestion=2">Activar usuario</a></td>';
                             }
                             echo "<td><a onClick=\"javascript: return confirm('Realmente desea eliminar el estudiante seleccionado?');\" href='adm_buscar_estudiantes.php?id=" . $row['idUsuario'] . "&id_gestion=3'><span class='glyphicon glyphicon-remove'></a></td>";
-
+                            
+                            echo "<td><button class='editar'>Editar</button></td>";
+                            
+                            
                             echo '</tr>';
                         }
                     }
@@ -150,7 +192,7 @@ if (@!$_SESSION['usuario']) {
                         act_des_usuario($id, "F");
                         echo '<script>alert("Usuario desactivado correctamente")</script> ';
                         echo "<script>location.href='adm_buscar_estudiantes.php'</script>";
-                    }
+                    } 
                     if ($id_gestion == 2) {
                        act_des_usuario($id, "V");
                        echo '<script>alert("Usuario activado correctamente")</script> ';
@@ -170,11 +212,97 @@ if (@!$_SESSION['usuario']) {
                     $conexion = null;
                     ?>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content ">
+        <div class="modal-header">
+            <title >Editar Datos de Uuario </title >
+            <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="col-sm-12 text-center">
+                <div class="row">
+                    <label  class="col-sm-6 text-right">Nombre Usuario: </label >
+                    <input type="text" id ="nombre">
+                </div>
+                <div class="row">
+                    <label class="col-sm-6 text-center">Tipo: </label >
+                    <input type="text" id ="tipo" class="col-sm-6 text-right">
+                </div>
+                <div class="row" >
+                    <label class="col-sm-6 text-right">Nombres Completos:</label >
+                    <input type="text" id ="nombreCompleto" class="col-sm-6 text-right">
+                </div>
+                <div class="col-sm-6 text-right" >
+                    <label class="col-sm-6 text-right" >Cédula: </label >
+                    <input type="text" id ="c
+                    
+                    
+                    edula" class="col-sm-6 text-right" >
+            </div>
+            </div>
+            <div class="col-sm-12 text-center">
+            <span type="text" id ="actDes"> </span >
+            
+        </div>
+  </div>
+
+</div>
                     <!-- --------------------------------------------- -->
 
                 </div>
             </div>
         </div></br></br></br>
+        
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+$("#tablaUsuarios").on("click",".editar",function(){
+    fila=$(this).parent().parent();
+    modal.style.display="block";
+    nombre=fila.find("td").eq(1).text();
+    $("#nombre").val(nombre);
+    $("#tipo").val(fila.find("td").eq(2).text());
+    $("#nombreCompleto").val(fila.find("td").eq(3).text());
+    $("#cedula").val(fila.find("td").eq(4).text());
+    $("#actDes").val(fila.find("td").eq(5).text());
+    
+
+})
+$("#botonEditar").click(function(){
+    modal.style.display="block";
+});
+
+function editarUsuario(){
+    modal.style.display = "block";
+
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
         <script>
             function validar_busqueda_cedula() {
                 var e = document.getElementById("select_criterio");
@@ -292,7 +420,9 @@ if (@!$_SESSION['usuario']) {
             }
 
         </script>
-        <?php include '../modulos_comunes/footer.php'; ?>
+        <footer class="label-default container-fluid text-center">
+            <p class="copyright small">Copyright &copy; Jaime Crespin, Jossué Dután, Alexis Maldonado 2018</p>
+        </footer>
     </body>
 
 </html>

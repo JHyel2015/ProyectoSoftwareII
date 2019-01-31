@@ -142,18 +142,39 @@ if (@!$_SESSION['usuario']) {
 
 
     <body>
-        <?php
-            if($usr==1){
-                //require_once'../clases_negocio/funciones_oa_estudiante.php';
-                //echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                include '../modulos_estudiante/navbar_estudiante.php';
-            }else{
-                require_once'../clases_negocio/funciones_oa_profesor.php';
-                //echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
-                include '../modulos_administrador/navbar_admin.php';
-            }
-            
-        ?>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <div class="pull-left image">
+                        <?php
+                            if($usr==1){
+                                require_once'../clases_negocio/funciones_oa_estudiante.php';
+                            echo "<img id='imgId' src='". obtener_imagen_es($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            
+                            }else{
+                                require_once'../clases_negocio/funciones_oa_profesor.php';
+                                echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                            }
+                            
+                        ?>
+                    </div>
+                    <a class="navbar-brand" href="../modulos_estudiante/editUser.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../../aplicacion/desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="row content">
                 <div class="col-sm-12 text-center">
@@ -182,6 +203,9 @@ if (@!$_SESSION['usuario']) {
                                 echo "<span class='time-right'>$fecha<br>";
                                 echo "</p><br>";
                                 echo "<br><a class='btn btn-success text-right' href='formulario.php?id&respuestas=$respuestas&identificador=$id'> Responder</a>";
+                                if($_SESSION["usuario"]== $autor)
+                                echo "<a class='btn btn-success text-right' href='eliminar.php?id&id=$id&identificador=$id'> Eliminar</a>";
+                                
                             }
                         ?>
                     </div>
@@ -209,8 +233,10 @@ if (@!$_SESSION['usuario']) {
                                 echo "$mensaje<br>";
                                 echo "<span class='time-left'>$fecha<br>";
                                 echo "</p><br>";
-                                echo "<br><a class='btn btn-success text-left'<a href='formulario.php?id&respuestas=$respuestas&identificador=$id'>Responder</a><br><br>";
+                              //  echo "<br><a class='btn btn-success text-left'<a href='formulario.php?id&respuestas=$respuestas&identificador=$id'>Responder</a><br><br>";
                                 echo "<p style='border-bottom: 1px solid #838E9C'>";
+                                if($_SESSION["usuario"]== $autor)
+                                echo "<a class='btn btn-success text-right' href='eliminar.php?id&id=$id&identificador=$id'> Eliminar</a>";
                             }
                         ?>
                     </div>
@@ -218,8 +244,4 @@ if (@!$_SESSION['usuario']) {
             </div>
         </div>
     </body>
-    <br><br>
-    <br><br>
-
-    <?php include 'footer.php'; ?>
 </html>

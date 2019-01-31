@@ -46,16 +46,6 @@ function insertar_estudiante($ci, $nombres, $apellidos, $carrera, $facultad, $ma
         return false;
     }
 }
-function actualizar_estudiante($nombres, $apellidos, $carrera, $facultad, $mail, $id_usuario,$ruta_imagen) {
-    $conexion = new Conexion();
-    $statement = 'UPDATE estudiante SET nombres=?, apellidos=?, carrera=?, id_facultad=?, mail=?, ruta_imagen=? WHERE id_usuario=?';
-    $consulta = $conexion->prepare($statement);
-    if ($consulta->execute(array($nombres, $apellidos, $carrera, $facultad, $mail, $ruta_imagen, $id_usuario))) {
-        return true;
-    } else {
-        return false;
-    }
-}
 function insertarValoracion($id_objeto_aprendizaje,$idusuario,$puntaje){
     $conexion=new Conexion();
     $statement = 'INSERT INTO valoracion (idvaloracion,idobjeto_aprendizaje,idusuario,puntuacion) VALUES (?,?,?,?)';
@@ -81,6 +71,31 @@ function obtener_imagen_es($usuario) {
     } else {
         return null;
     }
+}
+function actualizar_estudiante($nombres, $apellidos, $carrera, $facultad, $mail, $id_usuario,$ruta_imagen) {
+    $conexion = new Conexion();
+    $statement = 'UPDATE estudiante SET nombres=?, apellidos=?, carrera=?, id_facultad=?, mail=?, ruta_imagen=? WHERE id_usuario=?';
+    $consulta = $conexion->prepare($statement);
+    if ($consulta->execute(array($nombres, $apellidos, $carrera, $facultad, $mail, $ruta_imagen, $id_usuario))) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function obtener_lista_de_correos() {
+    $conexion = new Conexion();
+    $statement = 'select mail from estudiante';
+    $consulta = $conexion->prepare($statement);
+    $consulta->setFetchMode(PDO::FETCH_ASSOC);
+    $consulta->execute();
+    $arreglo = [];
+    if ($consulta->rowCount() != 0) {
+        while ($row = $consulta->fetch()) {
+            array_push($arreglo, $row['mail']);
+        }
+    }
+    return implode(',', $arreglo);
 }
 
 ?>

@@ -95,13 +95,13 @@ if (@!$_SESSION['usuario']) {
                     
                 ?>
             </div>
-            <a class="navbar-brand" href="est_perfilEdit.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
+            <a class="navbar-brand" href="editUser.php"> Bienvenid@: <strong><?php echo $_SESSION['usuario'] ?></strong></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li ><a href="../modulos_comunes/index.php">Home</a></li>
-                <li><a href="../modulos_estudiante/est_importar_catalogar.php">Importar y catalogar</a></li>
+                <li><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
                 <li class="active"><a href="../modulos_estudiante/est_buscar.php">Buscar</a></li>
+                <li><a href="../modulos_estudiante/est_herramientas.php">Herramientas</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="../desconectar_sesion.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
@@ -247,9 +247,10 @@ if (@!$_SESSION['usuario']) {
 
     </div>
 </div></br></br></br>
+<footer class="label-default container-fluid text-center">
+    <p class="copyright small">Copyright &copy; Jaime Crespin, Jossué Dután, Alexis Maldonado 2018</p>
+</footer>
 </body>
-    </br>
-    <?php include '../modulos_comunes/footer.php';?>
 
 </html>
 
