@@ -100,7 +100,7 @@ if (@!$_SESSION['usuario']) {
                     
                     }else{
                         require_once'../clases_negocio/funciones_oa_profesor.php';
-                        echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
+                        //echo "<img id='imgId' src='". obtener_imagen_pro($_SESSION['usuario']) . "' width='40' height='40' class='img-circle'>";
                     }
                 ?>
             </div>
@@ -110,7 +110,6 @@ if (@!$_SESSION['usuario']) {
             <ul class="nav navbar-nav">
                 <li><a href="../modulos_profesor/pro_importar_catalogar.php">Importar y catalogar</a></li>
                 <li class="active"><a href="../modulos_profesor/pro_buscar.php">Buscar</a></li>
-                <li><a href="../modulos_profesor/pro_herramientas.php">Herramientas</a></li>
                 <li><a data-step="5" data-intro="Puedes encontrar o crear temas de discucion" href="../modulos_comunes/index.php">Foro</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
