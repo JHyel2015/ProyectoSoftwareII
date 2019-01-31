@@ -10,7 +10,7 @@
         <!-- intro.js -->
         <link href="../../intro.js/introjs.css" rel="stylesheet">
 
-        <title>Proyecto SGOA</title>
+        <title>Proyecto SSC</title>
     </head>
     <body>        
         <?php include 'navBarIndex.php'; ?>
