@@ -208,6 +208,16 @@ function insertar_usuario($usuario, $contrasenia, $tipo_usuario, $esta_activo) {
         return false;
     }
 }
+function actualizar_usuario($id_usuario, $usuario) {
+    $conexion = new Conexion();
+    $statement = 'UPDATE usuario SET usuario=? WHERE idUsuario=?';
+    $consulta = $conexion->prepare($statement);
+    if ($consulta->execute(array($usuario, $id_usuario))) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function recuperar_id_usuario_por_nombre($usuario) {
     $conexion = new Conexion();
