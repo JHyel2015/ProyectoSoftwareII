@@ -22,7 +22,7 @@
 			$respuestas=$_POST['respuestas'];
 			$identificador=$_POST['identificador'];
 			$usuario = $_SESSION['usuario'];
-			$fecha = date("d-m-y");
+			$fecha = date("y-m-d");
 			
 			//Evitamos que el usuario ingrese HTML
 			$mensaje = htmlentities($mensaje);

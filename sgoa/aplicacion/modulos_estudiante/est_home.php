@@ -31,7 +31,7 @@
                             echo "<tr style='background-color:#BAD6B8'>";
                                 echo "<td><a href='foro.php?id=$id'><span class='glyphicon glyphicon-hand-right'> Participar</a></td>";
                                 echo "<td>$titulo</td>";
-                                echo "<td>".date("d-m-y,$fecha")."</td>";
+                                echo "<td>".date("$fecha")."</td>";
                                 echo "<td>$respuestas</td>";
                             echo "</tr>";
                         }
