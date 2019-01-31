@@ -9,7 +9,7 @@
         <script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/jquery-3.3.1.js"></script>
         <script type="text/javascript" src="../../plugins/bootstrap/js/funciones_validar_formularios.js"></script>
-        <title>Proyecto SGOA</title>
+        <title>Proyecto SSC</title>
     </head>
     <body >
         <?php include 'navBarIndex.php'; ?>
